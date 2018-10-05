@@ -1298,7 +1298,7 @@ body.safari .menuCube {
 }
 
 .aboutSolution {
-    width: 100vw;
+    width: 96vw;
     height: 100vh;
     position: relative;
     transition: opacity .15s ease-out

@@ -1,0 +1,1193 @@
+[33mcommit 24a47bdfadda88aabb6a78d4e8904fa4c738ad37[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: maophal <38899032+maophal@users.noreply.github.com>
+Date:   Wed Oct 3 19:03:03 2018 +0700
+
+    first commit
+
+[1mdiff --git a/fonts/AvenirLTStd-Heavy.woff b/fonts/AvenirLTStd-Heavy.woff[m
+[1mnew file mode 100644[m
+[1mindex 0000000..721bb64[m
+Binary files /dev/null and b/fonts/AvenirLTStd-Heavy.woff differ
+[1mdiff --git a/img/1155331.jpg b/img/1155331.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3d91b5a[m
+Binary files /dev/null and b/img/1155331.jpg differ
+[1mdiff --git a/img/Artboard 1-100.jpg b/img/Artboard 1-100.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..97a91c1[m
+Binary files /dev/null and b/img/Artboard 1-100.jpg differ
+[1mdiff --git a/img/Artboard25.svg b/img/Artboard25.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7f0eb42[m
+[1m--- /dev/null[m
+[1m+++ b/img/Artboard25.svg[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 278.99 116.99"><defs><style>.cls-1{fill:#0f0f69;}.cls-2{fill:#5a3c1e;}</style></defs><title>Artboard 25</title><path class="cls-1" d="M73.75,101.9h15.4L53.7,17H26.81v2.2l6,.38a6.65,6.65,0,0,1,5.69,9.26L7,102.27h8.8L26.68,75.5H63ZM29,69.81,44.78,30.94,60.65,69.81Z"/><path class="cls-2" d="M174.28,85.49c.7-.85,1.4-1.73,2.09-2.66,3.55-5.62,10.64-21,9.66-24.93l-23.35-.13s22.39,5.38,8.23,25.3c-13.61-10-29.58-24-43-42.54a12.37,12.37,0,0,1-2.39-7.14c0-4.34,1.78-10.52,10.89-13.75a13.79,13.79,0,0,1,4.16-.06c5,.3,13.32,5.74,11.85,14.48l6.36-11.24s-7.7-10.39-25.12-5.26c-6.19,1.82-25.72,13.58-7.55,38.91C119.1,59.76,100.59,70,104.38,85c1.1,4.28,5.74,13.57,20.78,18,4.66,1.14,22.7,6.49,41.28-9.45,5.73,4.78,9.69,8,9.69,8h25.18A181.38,181.38,0,0,1,174.28,85.49ZM128.7,96.28C125,94.37,106.61,78.8,129,60c7.83,8.46,23.79,22.21,35,31.57C156.92,98.5,146.11,103.82,128.7,96.28Z"/><path class="cls-1" d="M252.09,22h-47.8v2.57l8.14.82a6.94,6.94,0,0,1,6.23,7c-.19,18.51-.68,71.31-.43,71.06,1-1,15,0,15,0V67.8h20.48a20.59,20.59,0,0,0,20.59-20.6v-3A22.25,22.25,0,0,0,252.09,22ZM260,48.48a13,13,0,0,1-12.95,13H232.41L232,34.2a7,7,0,0,1,7-7.06l7,.05a14.06,14.06,0,0,1,14,14.06Z"/></svg>[m
+\ No newline at end of file[m
+[1mdiff --git a/img/Asset1.png b/img/Asset1.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b725569[m
+Binary files /dev/null and b/img/Asset1.png differ
+[1mdiff --git a/img/Asset3.svg b/img/Asset3.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5abcb6e[m
+[1m--- /dev/null[m
+[1m+++ b/img/Asset3.svg[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 664.81 56.35"><title>Asset 3</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M23.45,1.37h8.3L55,55.29H44L39,43H15.61L10.74,55.29H0ZM35.64,34.72l-8.3-21.93L18.88,34.72Z"/><path d="M60.31,1.37H73l25,40.36h.16V1.37h9.59V55.29H95.64L70.06,13.63h-.15V55.29h-9.6Z"/><path d="M119.71,1.37h19.12a42.5,42.5,0,0,1,10.58,1.37A27.75,27.75,0,0,1,159,7.27a23.87,23.87,0,0,1,6.93,8.3,27.61,27.61,0,0,1,2.66,12.76,26.07,26.07,0,0,1-2.66,12.18A25,25,0,0,1,159,48.89a29.15,29.15,0,0,1-9.6,4.84,37.5,37.5,0,0,1-10.58,1.56H119.71ZM137.3,46.91a32.29,32.29,0,0,0,7.47-.88,19.28,19.28,0,0,0,6.73-3,15.69,15.69,0,0,0,4.92-5.67,19.16,19.16,0,0,0,1.9-9.06,20.37,20.37,0,0,0-1.9-9.44,15.29,15.29,0,0,0-4.92-5.72,18.13,18.13,0,0,0-6.73-2.81,37.15,37.15,0,0,0-7.47-.77h-8V46.91Z"/><path d="M177.89,1.37h18.73a34,34,0,0,1,7.39.8,18.94,18.94,0,0,1,6.36,2.63,13.65,13.65,0,0,1,4.45,4.79,14.54,14.54,0,0,1,1.68,7.24,13.76,13.76,0,0,1-3.31,9.56,16.69,16.69,0,0,1-9,5l14.39,23.92H207L194.49,32.44h-7V55.29h-9.6ZM195.33,24.6a27.08,27.08,0,0,0,4.11-.31,11.87,11.87,0,0,0,3.7-1.14,7.23,7.23,0,0,0,2.7-2.4,6.94,6.94,0,0,0,1.07-4,6.06,6.06,0,0,0-1-3.61,7.34,7.34,0,0,0-2.51-2.25,10.37,10.37,0,0,0-3.46-1.14,24.77,24.77,0,0,0-3.77-.31h-8.68V24.6Z"/><path d="M225.79,1.37h35.72V9.75H235.39v13.7h24.75v8.08H235.39V46.76h27.49v8.53H225.79Z"/><path d="M266.76,1.37h10.51L287.7,41h.16l11.88-39.6h9.89L321.28,41h.16L332.1,1.37h10.2L326.54,55.29h-9.29L304.61,14.85h-.15L291.81,55.29h-9.29Z"/><path d="M404.29,42.42l12.57,12.87H404.67l-5.94-6.17a22.44,22.44,0,0,1-6.47,5.18,20.26,20.26,0,0,1-9.67,2.05,23.61,23.61,0,0,1-6.86-1,17,17,0,0,1-5.75-3,14.66,14.66,0,0,1-4-4.91,14.88,14.88,0,0,1-1.48-6.81,14,14,0,0,1,1-5.37A15.9,15.9,0,0,1,368.17,31a17.74,17.74,0,0,1,3.75-3.27,29.06,29.06,0,0,1,4.4-2.36,25.11,25.11,0,0,1-4.27-5.67,13.51,13.51,0,0,1-1.57-6.44,12.1,12.1,0,0,1,4.83-10.09,14.73,14.73,0,0,1,4.88-2.4A20.15,20.15,0,0,1,385.71,0a19.79,19.79,0,0,1,5.6.8,13.69,13.69,0,0,1,4.76,2.44,12.29,12.29,0,0,1,3.31,4.11,12.52,12.52,0,0,1,1.26,5.75,12.68,12.68,0,0,1-.88,4.76,14.69,14.69,0,0,1-2.36,4A17.12,17.12,0,0,1,393.9,25a32.87,32.87,0,0,1-4.31,2.44l8.84,9.21,6.24-9.82H415.1Zm-22.85-11.2a17.59,17.59,0,0,0-2.85,1.3,10.38,10.38,0,0,0-2.36,1.82,8.15,8.15,0,0,0-1.64,2.56,8.78,8.78,0,0,0-.61,3.38,8,8,0,0,0,2.9,6.25,9.49,9.49,0,0,0,2.89,1.64,9.25,9.25,0,0,0,3.12.57,10.65,10.65,0,0,0,5.71-1.45,15.5,15.5,0,0,0,4.34-4.11ZM385.9,7.39a6.39,6.39,0,0,0-4.47,1.67,5.65,5.65,0,0,0-1.81,4.34,8.54,8.54,0,0,0,1.25,4.42A18,18,0,0,0,384.38,22a27.13,27.13,0,0,0,3-1.52,12.8,12.8,0,0,0,2.46-1.91,8.64,8.64,0,0,0,1.66-2.36,6.61,6.61,0,0,0,.61-2.82,5.82,5.82,0,0,0-1.75-4.22A5.9,5.9,0,0,0,385.9,7.39Z"/><path d="M442.29,1.37h17.59a38.28,38.28,0,0,1,8.38.84A17.48,17.48,0,0,1,474.66,5a12.86,12.86,0,0,1,4.11,4.87A16.29,16.29,0,0,1,480.22,17a15.43,15.43,0,0,1-1.68,7.54A13.62,13.62,0,0,1,474,29.43a19.89,19.89,0,0,1-6.66,2.71,37.44,37.44,0,0,1-8.08.83h-7.38V55.29h-9.6Zm16.3,23.53a28.11,28.11,0,0,0,4.49-.34,12.35,12.35,0,0,0,3.81-1.22,6.86,6.86,0,0,0,2.66-2.4,7,7,0,0,0,1-4,6.72,6.72,0,0,0-1-3.84,6.86,6.86,0,0,0-2.62-2.33,11.52,11.52,0,0,0-3.74-1.1,33.54,33.54,0,0,0-4.3-.27h-7V24.9Z"/><path d="M488.74,1.37h9.6V23.15h25.2V1.37h9.6V55.29h-9.6V31.37h-25.2V55.29h-9.6Z"/><path d="M545,1.37h9.6V55.29H545Z"/><path d="M566.49,1.37h9.6V46.76H599v8.53H566.49Z"/><path d="M605.41,1.37H615V55.29h-9.6Z"/><path d="M626.88,1.37h17.6a38.25,38.25,0,0,1,8.37.84A17.48,17.48,0,0,1,659.25,5a12.68,12.68,0,0,1,4.11,4.87A16.15,16.15,0,0,1,664.81,17a15.43,15.43,0,0,1-1.68,7.54,13.45,13.45,0,0,1-4.53,4.91,19.72,19.72,0,0,1-6.66,2.71,37.42,37.42,0,0,1-8.07.83h-7.39V55.29h-9.6Zm16.3,23.53a28.11,28.11,0,0,0,4.49-.34,12.26,12.26,0,0,0,3.81-1.22,6.89,6.89,0,0,0,2.67-2.4,7.13,7.13,0,0,0,1-4,6.8,6.8,0,0,0-1-3.84,6.89,6.89,0,0,0-2.63-2.33,11.53,11.53,0,0,0-3.73-1.1,33.7,33.7,0,0,0-4.31-.27h-7V24.9Z"/></g></g></svg>[m
+\ No newline at end of file[m
+[1mdiff --git a/img/Picture1.png b/img/Picture1.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c793a41[m
+Binary files /dev/null and b/img/Picture1.png differ
+[1mdiff --git a/img/Picture2.png b/img/Picture2.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4e99f28[m
+Binary files /dev/null and b/img/Picture2.png differ
+[1mdiff --git a/img/Picture3.png b/img/Picture3.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2d0d985[m
+Binary files /dev/null and b/img/Picture3.png differ
+[1mdiff --git a/img/Picture4.png b/img/Picture4.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ab0d870[m
+Binary files /dev/null and b/img/Picture4.png differ
+[1mdiff --git a/img/artboard_35_LSK_icon.ico b/img/artboard_35_LSK_icon.ico[m
+[1mnew file mode 100644[m
+[1mindex 0000000..cd66b54[m
+Binary files /dev/null and b/img/artboard_35_LSK_icon.ico differ
+[1mdiff --git a/img/artboard_35_Yk8_icon.ico b/img/artboard_35_Yk8_icon.ico[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5d7da3b[m
+Binary files /dev/null and b/img/artboard_35_Yk8_icon.ico differ
+[1mdiff --git a/img/certificate.svg b/img/certificate.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..edcb520[m
+[1m--- /dev/null[m
+[1m+++ b/img/certificate.svg[m
+[36m@@ -0,0 +1,63 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 163.5 121.5" enable-background="new 0 0 163.5 121.5" xml:space="preserve">[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<path d="M152.4,8.8H11.8c-0.9,0-1.7,0.7-1.7,1.7v97.4c0,0.9,0.7,1.7,1.7,1.7h84.2l0.7,4.6c0.1,0.6,0.5,1.1,1.1,1.3[m[41m[m
+[32m+[m		[32mc0.2,0.1,0.3,0.1,0.5,0.1c0.4,0,0.9-0.2,1.2-0.5l5.5-5.5h17.3l5.5,5.5c0.3,0.3,0.7,0.5,1.2,0.5c0.2,0,0.3,0,0.5-0.1[m[41m[m
+[32m+[m		[32mc0.6-0.2,1-0.7,1.1-1.3l0.7-4.6h21.2c0.9,0,1.7-0.7,1.7-1.7V10.5C154.1,9.6,153.3,8.8,152.4,8.8L152.4,8.8z M140.4,102.4l-1.8-1.8[m[41m[m
+[32m+[m		[32mh4.2l5.6,5.6h-15.6l6.6-1c0.6-0.1,1.1-0.5,1.3-1.1C141,103.5,140.8,102.8,140.4,102.4L140.4,102.4z M115.3,98[m[41m[m
+[32m+[m		[32mc-0.6,0.4-1.3,0.9-1.8,0.9c-0.5,0-1.1-0.4-1.8-0.9c-0.6-0.4-1.4-0.9-2.2-1.2c-0.8-0.3-1.7-0.3-2.5-0.3c-0.8,0-1.5-0.1-1.9-0.3[m[41m[m
+[32m+[m		[32mc-0.3-0.3-0.6-1-0.9-1.7c-0.3-0.7-0.6-1.6-1.1-2.3c-0.5-0.7-1.2-1.2-1.8-1.7c-0.6-0.5-1.2-1-1.4-1.4c-0.1-0.4,0.1-1.1,0.3-1.8[m[41m[m
+[32m+[m		[32mc0.2-0.8,0.5-1.6,0.5-2.5c0-0.9-0.2-1.8-0.5-2.5c-0.2-0.7-0.4-1.5-0.3-1.8c0.1-0.4,0.8-0.9,1.4-1.4c0.6-0.5,1.3-1,1.8-1.7[m[41m[m
+[32m+[m		[32mc0.5-0.7,0.8-1.5,1.1-2.3c0.3-0.7,0.5-1.5,0.9-1.7c0.3-0.2,1.1-0.3,1.9-0.3c0.8,0,1.7-0.1,2.5-0.3c0.8-0.3,1.5-0.8,2.2-1.2[m[41m[m
+[32m+[m		[32mc0.6-0.4,1.3-0.9,1.8-0.9c0.5,0,1.1,0.4,1.8,0.9c0.6,0.4,1.4,0.9,2.2,1.2c0.8,0.3,1.7,0.3,2.5,0.3c0.8,0,1.5,0.1,1.9,0.3[m[41m[m
+[32m+[m		[32mc0.3,0.3,0.6,1,0.9,1.7c0.3,0.7,0.6,1.6,1.1,2.3c0.5,0.7,1.2,1.2,1.8,1.7c0.6,0.5,1.2,1,1.4,1.4c0.1,0.4-0.1,1.1-0.3,1.8[m[41m[m
+[32m+[m		[32mc-0.2,0.8-0.5,1.6-0.5,2.5c0,0.9,0.2,1.8,0.5,2.5c0.2,0.7,0.4,1.5,0.3,1.8c-0.1,0.4-0.8,0.9-1.4,1.4c-0.6,0.5-1.3,1-1.8,1.7[m[41m[m
+[32m+[m		[32mc-0.5,0.7-0.8,1.5-1.1,2.3c-0.3,0.7-0.5,1.5-0.9,1.7c-0.3,0.2-1.1,0.3-1.9,0.3c-0.8,0-1.7,0.1-2.5,0.3[m[41m[m
+[32m+[m		[32mC116.7,97.1,116,97.6,115.3,98L115.3,98z M130,86.4c-0.2-0.6-0.3-1.2-0.3-1.6c0-0.5,0.2-1,0.3-1.6c0.3-1.1,0.7-2.4,0.3-3.8[m[41m[m
+[32m+[m		[32mc-0.4-1.4-1.6-2.3-2.5-3c-0.5-0.4-0.9-0.7-1.2-1.1c-0.2-0.3-0.4-0.9-0.7-1.5c-0.4-1.1-0.9-2.4-2-3.2c-1.2-0.8-2.5-0.9-3.7-0.9[m[41m[m
+[32m+[m		[32mc-0.6,0-1.2,0-1.6-0.2c-0.4-0.1-0.8-0.4-1.3-0.8c-1-0.6-2.1-1.4-3.6-1.4c-1.5,0-2.7,0.8-3.6,1.4c-0.5,0.3-1,0.7-1.3,0.8[m[41m[m
+[32m+[m		[32mc-0.4,0.1-1,0.2-1.6,0.2c-1.2,0-2.5,0.1-3.7,0.9c-1.2,0.8-1.6,2.1-2,3.2c-0.2,0.6-0.4,1.1-0.7,1.5c-0.2,0.3-0.7,0.7-1.2,1.1[m[41m[m
+[32m+[m		[32mc-0.9,0.7-2,1.6-2.5,3c-0.4,1.3-0.1,2.6,0.3,3.8c0.2,0.6,0.3,1.2,0.3,1.6c0,0.5-0.2,1-0.3,1.6c-0.3,1.1-0.7,2.4-0.3,3.8[m[41m[m
+[32m+[m		[32mc0.2,0.5,0.4,1,0.8,1.4l-5.8,5.8H22.4V21.1h119.4v76.2h-6.5l-5.8-5.8c0.3-0.4,0.6-0.8,0.8-1.4C130.6,88.8,130.3,87.5,130,86.4[m[41m[m
+[32m+[m		[32mL130,86.4z M86.4,104.1c0.2,0.6,0.7,1,1.3,1.1l6.6,1H15.8l5.6-5.6h67.2l-1.8,1.8C86.3,102.8,86.2,103.5,86.4,104.1L86.4,104.1z[m[41m[m
+[32m+[m		[32m M142.8,17.8H21.4l-5.6-5.6h132.7L142.8,17.8z M19,20.1v78.1l-5.6,5.6V14.5L19,20.1z M145.1,98.3V20.1l5.6-5.6v89.4L145.1,98.3z[m[41m[m
+[32m+[m		[32m M99.4,110.4l-0.9-5.7c-0.1-0.7-0.7-1.3-1.4-1.4l-5.7-0.9l8.7-8.7c0.2,0.2,0.3,0.3,0.4,0.4c0.2,0.3,0.5,0.9,0.7,1.5[m[41m[m
+[32m+[m		[32mc0.4,1.1,0.9,2.4,2,3.2c1.2,0.8,2.5,0.9,3.7,0.9c0.6,0,1.2,0,1.6,0.2c0.2,0.1,0.5,0.2,0.8,0.4L99.4,110.4z M108.2,106.2l4.2-4.2[m[41m[m
+[32m+[m		[32mc0.4,0.1,0.7,0.2,1.1,0.2c0.4,0,0.8-0.1,1.1-0.2l4.2,4.2H108.2z M128.6,104.7l-0.9,5.7l-10-10c0.3-0.2,0.6-0.3,0.8-0.4[m[41m[m
+[32m+[m		[32mc0.4-0.1,1-0.2,1.6-0.2c1.2,0,2.5-0.1,3.7-0.9c1.2-0.8,1.6-2.1,2-3.2c0.2-0.6,0.4-1.1,0.7-1.5c0.1-0.1,0.3-0.3,0.4-0.4l8.7,8.7[m[41m[m
+[32m+[m		[32ml-5.7,0.9C129.3,103.4,128.8,104,128.6,104.7L128.6,104.7z M128.6,104.7"/>[m[41m[m
+[32m+[m	[32m<path d="M123.8,84.7c0-5.6-4.6-10.2-10.2-10.2c-5.6,0-10.2,4.6-10.2,10.2c0,5.6,4.6,10.2,10.2,10.2[m[41m[m
+[32m+[m		[32mC119.2,94.9,123.8,90.3,123.8,84.7L123.8,84.7z M113.6,91.6c-3.8,0-6.9-3.1-6.9-6.9c0-3.8,3.1-6.9,6.9-6.9c3.8,0,6.9,3.1,6.9,6.9[m[41m[m
+[32m+[m		[32mC120.5,88.5,117.4,91.6,113.6,91.6L113.6,91.6z M113.6,91.6"/>[m[41m[m
+[32m+[m	[32m<path d="M79.1,33.4c0.9,0,1.7-0.7,1.7-1.7V26c0-0.9-0.7-1.7-1.7-1.7c-0.9,0-1.7,0.7-1.7,1.7v5.7C77.4,32.6,78.2,33.4,79.1,33.4[m[41m[m
+[32m+[m		[32mL79.1,33.4z M79.1,33.4"/>[m[41m[m
+[32m+[m	[32m<path d="M85.1,33.4c0.9,0,1.7-0.7,1.7-1.7V26c0-0.9-0.7-1.7-1.7-1.7c-0.9,0-1.7,0.7-1.7,1.7v5.7C83.4,32.6,84.1,33.4,85.1,33.4[m[41m[m
+[32m+[m		[32mL85.1,33.4z M85.1,33.4"/>[m[41m[m
+[32m+[m	[32m<path d="M91.5,30.5h10.8c0.9,0,1.7-0.7,1.7-1.7c0-0.9-0.7-1.7-1.7-1.7H91.5c-0.9,0-1.7,0.7-1.7,1.7C89.8,29.8,90.6,30.5,91.5,30.5[m[41m[m
+[32m+[m		[32mL91.5,30.5z M91.5,30.5"/>[m[41m[m
+[32m+[m	[32m<path d="M61.9,30.5h10.8c0.9,0,1.7-0.7,1.7-1.7c0-0.9-0.7-1.7-1.7-1.7H61.9c-0.9,0-1.7,0.7-1.7,1.7C60.2,29.8,61,30.5,61.9,30.5[m[41m[m
+[32m+[m		[32mL61.9,30.5z M61.9,30.5"/>[m[41m[m
+[32m+[m	[32m<path d="M124.7,38.4H39.4c-0.9,0-1.7,0.7-1.7,1.7c0,0.9,0.7,1.7,1.7,1.7h85.3c0.9,0,1.7-0.7,1.7-1.7[m[41m[m
+[32m+[m		[32mC126.4,39.2,125.6,38.4,124.7,38.4L124.7,38.4z M124.7,38.4"/>[m[41m[m
+[32m+[m	[32m<path d="M124.7,45.4H39.4c-0.9,0-1.7,0.7-1.7,1.7c0,0.9,0.7,1.7,1.7,1.7h85.3c0.9,0,1.7-0.7,1.7-1.7[m[41m[m
+[32m+[m		[32mC126.4,46.1,125.6,45.4,124.7,45.4L124.7,45.4z M124.7,45.4"/>[m[41m[m
+[32m+[m	[32m<path d="M124.7,52.3H39.4c-0.9,0-1.7,0.7-1.7,1.7c0,0.9,0.7,1.7,1.7,1.7h85.3c0.9,0,1.7-0.7,1.7-1.7[m[41m[m
+[32m+[m		[32mC126.4,53,125.6,52.3,124.7,52.3L124.7,52.3z M124.7,52.3"/>[m[41m[m
+[32m+[m	[32m<path d="M124.7,59.2H39.4c-0.9,0-1.7,0.7-1.7,1.7c0,0.9,0.7,1.7,1.7,1.7h85.3c0.9,0,1.7-0.7,1.7-1.7[m[41m[m
+[32m+[m		[32mC126.4,60,125.6,59.2,124.7,59.2L124.7,59.2z M124.7,59.2"/>[m[41m[m
+[32m+[m	[32m<path d="M78.8,78H39.4c-0.9,0-1.7,0.7-1.7,1.7c0,0.9,0.7,1.7,1.7,1.7h39.4c0.9,0,1.7-0.7,1.7-1.7C80.5,78.7,79.7,78,78.8,78[m[41m[m
+[32m+[m		[32mL78.8,78z M78.8,78"/>[m[41m[m
+[32m+[m	[32m<path d="M63.8,84.6H39.4c-0.9,0-1.7,0.7-1.7,1.7c0,0.9,0.7,1.7,1.7,1.7h24.3c0.9,0,1.7-0.7,1.7-1.7C65.4,85.4,64.7,84.6,63.8,84.6[m[41m[m
+[32m+[m		[32mL63.8,84.6z M63.8,84.6"/>[m[41m[m
+[32m+[m	[32m<path d="M26.2,31.6c-0.9,0-1.7,0.7-1.7,1.7v13.3c0,0.9,0.7,1.7,1.7,1.7c0.9,0,1.7-0.7,1.7-1.7V33.3C27.9,32.3,27.1,31.6,26.2,31.6[m[41m[m
+[32m+[m		[32mL26.2,31.6z M26.2,31.6"/>[m[41m[m
+[32m+[m	[32m<path d="M26.2,23.9c-0.9,0-1.7,0.7-1.7,1.7V28c0,0.9,0.7,1.7,1.7,1.7c0.9,0,1.7-0.7,1.7-1.7v-2.4C27.9,24.6,27.1,23.9,26.2,23.9[m[41m[m
+[32m+[m		[32mL26.2,23.9z M26.2,23.9"/>[m[41m[m
+[32m+[m	[32m<path d="M138.2,94.1c0.9,0,1.7-0.7,1.7-1.7V75.2c0-0.9-0.7-1.7-1.7-1.7c-0.9,0-1.7,0.7-1.7,1.7v17.2[m[41m[m
+[32m+[m		[32mC136.6,93.4,137.3,94.1,138.2,94.1L138.2,94.1z M138.2,94.1"/>[m[41m[m
+[32m+[m	[32m<path d="M138.2,72c0.9,0,1.7-0.7,1.7-1.7v-3.1c0-0.9-0.7-1.7-1.7-1.7c-0.9,0-1.7,0.7-1.7,1.7v3.1C136.6,71.3,137.3,72,138.2,72[m[41m[m
+[32m+[m		[32mL138.2,72z M138.2,72"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/close-white.svg b/img/close-white.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6a6cdf2[m
+[1m--- /dev/null[m
+[1m+++ b/img/close-white.svg[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32m<?xml version='1.0' encoding='iso-8859-1'?>[m[41m[m
+[32m+[m[32m<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="closeIcon" viewBox="0 0 47.971 47.971">[m[41m[m
+[32m+[m	[32m<path fill="white" d="M28.228,23.986L47.092,5.122c1.172-1.171,1.172-3.071,0-4.242c-1.172-1.172-3.07-1.172-4.242,0L23.986,19.744L5.121,0.88 c-1.172-1.172-3.07-1.172-4.242,0c-1.172,1.171-1.172,3.071,0,4.242l18.865,18.864L0.879,42.85c-1.172,1.171-1.172,3.071,0,4.242 C1.465,47.677,2.233,47.97,3,47.97s1.535-0.293,2.121-0.879l18.865-18.864L42.85,47.091c0.586,0.586,1.354,0.879,2.121,0.879 s1.535-0.293,2.121-0.879c1.172-1.171,1.172-3.071,0-4.242L28.228,23.986z"/>[m[41m[m
+[32m+[m[32m</svg>[m
+\ No newline at end of file[m
+[1mdiff --git a/img/close.svg b/img/close.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..39b7f91[m
+[1m--- /dev/null[m
+[1m+++ b/img/close.svg[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32m<?xml version='1.0' encoding='iso-8859-1'?>[m[41m[m
+[32m+[m[32m<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="closeIcon" viewBox="0 0 47.971 47.971">[m[41m[m
+[32m+[m	[32m<path d="M28.228,23.986L47.092,5.122c1.172-1.171,1.172-3.071,0-4.242c-1.172-1.172-3.07-1.172-4.242,0L23.986,19.744L5.121,0.88 c-1.172-1.172-3.07-1.172-4.242,0c-1.172,1.171-1.172,3.071,0,4.242l18.865,18.864L0.879,42.85c-1.172,1.171-1.172,3.071,0,4.242 C1.465,47.677,2.233,47.97,3,47.97s1.535-0.293,2.121-0.879l18.865-18.864L42.85,47.091c0.586,0.586,1.354,0.879,2.121,0.879 s1.535-0.293,2.121-0.879c1.172-1.171,1.172-3.071,0-4.242L28.228,23.986z"/>[m[41m[m
+[32m+[m[32m</svg>[m
+\ No newline at end of file[m
+[1mdiff --git a/img/contacts.png b/img/contacts.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..97d92d8[m
+Binary files /dev/null and b/img/contacts.png differ
+[1mdiff --git a/img/corporate.svg b/img/corporate.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f4b8f6e[m
+[1m--- /dev/null[m
+[1m+++ b/img/corporate.svg[m
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 80 70" enable-background="new 0 0 80 70" xml:space="preserve">[m[41m[m
+[32m+[m[32m<g id="XMLID_138_">[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_143_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM33.1,48.6c-6.7-1.5-11.6-7.2-11.6-14.1c0-8,6.7-14.5,15-14.5c0,0,0,0,0,0v14.5l11.7-9.1c1.9,2.2,3,5,3.3,8"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_141_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM40.5,25.9V11c0,0,0,0,0,0c4.7,0,8.9,2.2,11.6,5.6L40.5,25.9z"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_139_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM8.5,59v-0.9l9-3l6-6.9l7,3l20-17.9l6,2l15-11.9V59H8.5z"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/email.svg b/img/email.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..379daa0[m
+[1m--- /dev/null[m
+[1m+++ b/img/email.svg[m
+[36m@@ -0,0 +1,55 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="iso-8859-1"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<g>[m[41m[m
+[32m+[m		[32m<g>[m[41m[m
+[32m+[m			[32m<path d="M486.4,59.733H25.6c-14.138,0-25.6,11.461-25.6,25.6v341.333c0,14.138,11.461,25.6,25.6,25.6h460.8[m[41m[m
+[32m+[m				[32mc14.138,0,25.6-11.461,25.6-25.6V85.333C512,71.195,500.539,59.733,486.4,59.733z M494.933,426.667[m[41m[m
+[32m+[m				[32mc0,4.713-3.82,8.533-8.533,8.533H25.6c-4.713,0-8.533-3.82-8.533-8.533V85.333c0-4.713,3.82-8.533,8.533-8.533h460.8[m[41m[m
+[32m+[m				[32mc4.713,0,8.533,3.82,8.533,8.533V426.667z"/>[m[41m[m
+[32m+[m			[32m<path d="M470.076,93.898c-2.255-0.197-4.496,0.51-6.229,1.966L266.982,261.239c-6.349,5.337-15.616,5.337-21.965,0L48.154,95.863[m[41m[m
+[32m+[m				[32mc-2.335-1.96-5.539-2.526-8.404-1.484c-2.865,1.042-4.957,3.534-5.487,6.537s0.582,6.06,2.917,8.02l196.864,165.367[m[41m[m
+[32m+[m				[32mc12.688,10.683,31.224,10.683,43.913,0L474.82,108.937c1.734-1.455,2.818-3.539,3.015-5.794c0.197-2.255-0.51-4.496-1.966-6.229[m[41m[m
+[32m+[m				[32mC474.415,95.179,472.331,94.095,470.076,93.898z"/>[m[41m[m
+[32m+[m			[32m<path d="M164.124,273.13c-3.021-0.674-6.169,0.34-8.229,2.65l-119.467,128c-2.162,2.214-2.956,5.426-2.074,8.392[m[41m[m
+[32m+[m				[32mc0.882,2.967,3.301,5.223,6.321,5.897c3.021,0.674,6.169-0.34,8.229-2.65l119.467-128c2.162-2.214,2.956-5.426,2.074-8.392[m[41m[m
+[32m+[m				[32mC169.563,276.061,167.145,273.804,164.124,273.13z"/>[m[41m[m
+[32m+[m			[32m<path d="M356.105,275.78c-2.059-2.31-5.208-3.324-8.229-2.65c-3.021,0.674-5.439,2.931-6.321,5.897[m[41m[m
+[32m+[m				[32mc-0.882,2.967-0.088,6.178,2.074,8.392l119.467,128c3.24,3.318,8.536,3.442,11.927,0.278c3.391-3.164,3.635-8.456,0.549-11.918[m[41m[m
+[32m+[m				[32mL356.105,275.78z"/>[m[41m[m
+[32m+[m		[32m</g>[m[41m[m
+[32m+[m	[32m</g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/engeen.svg b/img/engeen.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..898f223[m
+[1m--- /dev/null[m
+[1m+++ b/img/engeen.svg[m
+[36m@@ -0,0 +1,41 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 80 70" enable-background="new 0 0 80 70" xml:space="preserve">[m[41m[m
+[32m+[m[32m<g id="XMLID_154_">[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_185_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM68,33h-7v5h-4v-3h-5l-5-5v-5H23L13,35v17c8,0,9,7,9,7s15.7,0,24,0c8,0,10.2-5.1,10.8-8H61v4h7c2.8,0,5-2.2,5-5V38[m[41m[m
+[32m+[m		[32mC73,35.2,70.8,33,68,33z"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_181_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM33,26v-5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_179_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM23,20h22"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_177_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM7,41h6"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_175_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM8,35v14"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_173_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM29,35h23"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_171_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM29,44v4"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_169_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM34,44v4"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_167_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM39,44v4"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_165_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM44,44v4"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_163_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM49,44v4"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/favicon.ico b/img/favicon.ico[m
+[1mnew file mode 100644[m
+[1mindex 0000000..912c2ea[m
+Binary files /dev/null and b/img/favicon.ico differ
+[1mdiff --git a/img/globe-not-retina.png b/img/globe-not-retina.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9b6de4c[m
+Binary files /dev/null and b/img/globe-not-retina.png differ
+[1mdiff --git a/img/globe-retina.png b/img/globe-retina.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..31ddb3b[m
+Binary files /dev/null and b/img/globe-retina.png differ
+[1mdiff --git a/img/industrial.svg b/img/industrial.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c4ffb38[m
+[1m--- /dev/null[m
+[1m+++ b/img/industrial.svg[m
+[36m@@ -0,0 +1,40 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 80 70" enable-background="new 0 0 80 70" xml:space="preserve">[m[41m[m
+[32m+[m[32m<g id="XMLID_4_">[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_30_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM30.5,11v48h-23V23L30.5,11z"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_28_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM30.5,22l21-11v48h-23"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_26_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM30.5,22l21-11v48h-21"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_24_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM30.5,30.4l21-10.9"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_22_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM7.5,31.5l23-12"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_20_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM51.5,28h9V11h12v48h-21"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_9_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM57.5,59V45h8v14"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_16_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM16.5,41v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_14_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM22.5,41v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_12_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM37.5,41v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_10_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM42.5,41v5"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/load.gif b/img/load.gif[m
+[1mnew file mode 100644[m
+[1mindex 0000000..bb0114c[m
+Binary files /dev/null and b/img/load.gif differ
+[1mdiff --git a/img/logo-for-ie.png b/img/logo-for-ie.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..730e177[m
+Binary files /dev/null and b/img/logo-for-ie.png differ
+[1mdiff --git a/img/logo-white.svg b/img/logo-white.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6f449bd[m
+[1m--- /dev/null[m
+[1m+++ b/img/logo-white.svg[m
+[36m@@ -0,0 +1,29 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 282.7 27.6" style="enable-background:new 0 0 282.7 27.6;" xml:space="preserve">[m[41m[m
+[32m+[m[32m<style type="text/css">[m[41m[m
+[32m+[m	[32m.st0{fill:#FFFFFF;}[m[41m[m
+[32m+[m[32m</style>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<path class="st0" d="M93.9,0h10.3c1.4,0,2.8,0.1,4.1,0.4c1.3,0.3,2.4,0.7,3.3,1.3c0.9,0.6,1.7,1.5,2.3,2.6c0.6,1.1,0.8,2.4,0.8,4.1[m[41m[m
+[32m+[m		[32mc0,1.6-0.3,3-0.8,4.1s-1.2,2-2.1,2.6c-0.9,0.7-2,1.1-3.2,1.4s-2.6,0.4-4.1,0.4h-4.4v10.8H94L93.9,0L93.9,0z M100,11.7h4.1[m[41m[m
+[32m+[m		[32mc0.5,0,1.1-0.1,1.6-0.2s1-0.3,1.4-0.5s0.7-0.6,1-1c0.2-0.4,0.4-1,0.4-1.6c0-0.7-0.2-1.3-0.5-1.7c-0.3-0.4-0.7-0.8-1.2-1[m[41m[m
+[32m+[m		[32ms-1.1-0.4-1.7-0.4c-0.6-0.1-1.2-0.1-1.8-0.1h-3.1v6.5H100z"/>[m[41m[m
+[32m+[m	[32m<path class="st0" d="M124.7,0h5l12,27.6h-6.9l-2.4-5.8h-10.7l-2.3,5.8h-6.7L124.7,0z M127,8.1l-3.4,8.6h6.7L127,8.1z"/>[m[41m[m
+[32m+[m	[32m<path class="st0" d="M144.5,0h10.7c1.4,0,2.7,0.1,4,0.4s2.4,0.7,3.3,1.4c0.9,0.6,1.7,1.5,2.3,2.6c0.6,1.1,0.8,2.4,0.8,4[m[41m[m
+[32m+[m		[32mc0,2-0.5,3.6-1.5,5s-2.5,2.2-4.4,2.6l7,11.7h-7.3l-5.8-11h-3v11h-6.1V0z M150.6,11.4h3.6c0.5,0,1.1,0,1.7-0.1s1.2-0.2,1.7-0.4[m[41m[m
+[32m+[m		[32mc0.5-0.2,0.9-0.5,1.2-0.9c0.3-0.4,0.5-1,0.5-1.8c0-0.7-0.1-1.3-0.4-1.7c-0.3-0.4-0.7-0.7-1.1-1c-0.4-0.2-0.9-0.4-1.5-0.4[m[41m[m
+[32m+[m		[32mC155.7,5,155.2,5,154.6,5h-4L150.6,11.4L150.6,11.4z"/>[m[41m[m
+[32m+[m	[32m<path class="st0" d="M178.8,0h5l12,27.6h-6.9l-2.4-5.8h-10.7l-2.3,5.8h-6.7L178.8,0z M181.2,8.1l-3.4,8.6h6.7L181.2,8.1z"/>[m[41m[m
+[32m+[m	[32m<path class="st0" d="M198.9,0h6.1v22h11.3v5.6h-17.4V0z"/>[m[41m[m
+[32m+[m	[32m<path class="st0" d="M219.8,0h6.1v22h11.3v5.6h-17.4V0z"/>[m[41m[m
+[32m+[m	[32m<path class="st0" d="M240.8,0h18.7v5.6h-12.7v5.1h12v5.6h-12v5.6h13.4v5.6h-19.5V0H240.8z"/>[m[41m[m
+[32m+[m	[32m<path class="st0" d="M265.3,0h6.1v22h11.3v5.6h-17.4V0z"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<path class="st0" d="M7.9,5.4H0V0h21.8v5.4h-7.9v22.2H7.8L7.9,5.4L7.9,5.4z"/>[m[41m[m
+[32m+[m	[32m<path class="st0" d="M24.9,0H31v10.3h11.8V0h6.1v27.6h-6.1V15.7H31v11.9h-6.1V0z"/>[m[41m[m
+[32m+[m	[32m<path class="st0" d="M54.8,0h18.7v5.6H60.8v5.1h12v5.6h-12v5.6h13.4v5.6H54.7V0H54.8z"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/medicine.svg b/img/medicine.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fe4f411[m
+[1m--- /dev/null[m
+[1m+++ b/img/medicine.svg[m
+[36m@@ -0,0 +1,25 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 80 70" enable-background="new 0 0 80 70" xml:space="preserve">[m[41m[m
+[32m+[m[32m<g id="XMLID_151_">[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_161_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM18,23.5h44l3,5v25l-3,5H18l-3-5v-25L18,23.5z"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_159_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM31,23.5v-2c0-2.8,2.2-5,5-5h8c2.8,0,5,2.2,5,5v2"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_157_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM52,23.5v-0.9c0-1.2,1-2.1,2.2-2.1h3.6c1.2,0,2.2,1,2.2,2.1v0.9"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_155_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM20,23.5v-0.9c0-1.2,1-2.1,2.2-2.1h3.6c1.2,0,2.2,1,2.2,2.1v0.9"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_152_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM31.4,19.5h16.7"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<polygon id="XMLID_153_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="[m[41m[m
+[32m+[m		[32m50,37 44,37 44,31 36,31 36,37 30,37 30,45 36,45 36,51 44,51 44,45 50,45 	"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/parallel-white.svg b/img/parallel-white.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..88e643e[m
+[1m--- /dev/null[m
+[1m+++ b/img/parallel-white.svg[m
+[36m@@ -0,0 +1,22 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 102 14.8" style="enable-background:new 0 0 102 14.8;" xml:space="preserve">[m[41m[m
+[32m+[m[32m<style type="text/css">[m[41m[m
+[32m+[m	[32m.st0{fill:#FFFFFF;}[m[41m[m
+[32m+[m[32m</style>[m[41m[m
+[32m+[m[32m<path class="st0" d="M11.2,4.6c0,0.9-0.2,1.6-0.5,2.2s-0.7,1-1.3,1.4C8.9,8.6,8.3,8.8,7.6,9S6.1,9.3,5.3,9.3H3.6v5.6H0V0h5.4[m[41m[m
+[32m+[m	[32mC6.2,0,7,0.1,7.7,0.3C8.4,0.4,9,0.7,9.5,1s0.9,0.8,1.2,1.4C11.1,3,11.2,3.7,11.2,4.6z M7.6,4.6c0-0.3-0.1-0.6-0.2-0.9[m[41m[m
+[32m+[m	[32mC7.3,3.5,7.1,3.3,6.9,3.2C6.6,3.1,6.4,3,6.1,3S5.5,2.9,5.2,2.9H3.6v3.5h1.5c0.3,0,0.7,0,1-0.1S6.6,6.2,6.9,6[m[41m[m
+[32m+[m	[32mc0.2-0.1,0.4-0.3,0.6-0.6C7.6,5.2,7.6,5,7.6,4.6z"/>[m[41m[m
+[32m+[m[32m<path class="st0" d="M23.4,14.8l-1.2-2.9h-5.7l-1.1,2.9h-3.9L17.8,0h3.5l6.2,14.8H23.4z M19.5,4l-1.9,5.1h3.7L19.5,4z"/>[m[41m[m
+[32m+[m[32m<path class="st0" d="M36.6,14.8L33.5,9h-1.2v5.9h-3.5V0h5.7c0.7,0,1.4,0.1,2.1,0.2c0.7,0.1,1.3,0.4,1.8,0.7s1,0.8,1.3,1.4[m[41m[m
+[32m+[m	[32mC39.8,2.9,40,3.6,40,4.5c0,1-0.3,1.8-0.8,2.5S38,8.2,37,8.5l3.9,6.3H36.6z M36.5,4.6c0-0.3-0.1-0.6-0.2-0.8[m[41m[m
+[32m+[m	[32mc-0.1-0.2-0.3-0.4-0.6-0.5C35.5,3.1,35.2,3,35,3S34.3,2.9,34,2.9h-1.9v3.5h1.7c0.3,0,0.6,0,0.9-0.1c0.3,0,0.6-0.1,0.8-0.3[m[41m[m
+[32m+[m	[32mc0.3-0.1,0.5-0.3,0.6-0.5C36.5,5.2,36.5,4.9,36.5,4.6z"/>[m[41m[m
+[32m+[m[32m<path class="st0" d="M52.6,14.8l-1.2-2.9h-5.7l-1.1,2.9h-3.9L47,0h3.5l6.2,14.8H52.6z M48.6,4l-1.9,5.1h3.7L48.6,4z"/>[m[41m[m
+[32m+[m[32m<path class="st0" d="M57.8,14.8V0h3.6v11.7h5.7v3.1C67.1,14.8,57.8,14.8,57.8,14.8z"/>[m[41m[m
+[32m+[m[32m<path class="st0" d="M68.9,14.8V0h3.6v11.7h5.7v3.1C78.1,14.8,68.9,14.8,68.9,14.8z"/>[m[41m[m
+[32m+[m[32m<path class="st0" d="M79.9,14.8V0h10v3h-6.5v2.8h6.2v2.9h-6.2v3.1h6.9v3.1H79.9V14.8z"/>[m[41m[m
+[32m+[m[32m<path class="st0" d="M92.6,14.8V0h3.6v11.7h5.7v3.1C101.8,14.8,92.6,14.8,92.6,14.8z"/>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/parallel.svg b/img/parallel.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3a0d48c[m
+[1m--- /dev/null[m
+[1m+++ b/img/parallel.svg[m
+[36m@@ -0,0 +1,19 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 102 14.8" style="enable-background:new 0 0 102 14.8;" xml:space="preserve">[m[41m[m
+[32m+[m[32m<path d="M11.2,4.6c0,0.9-0.2,1.6-0.5,2.2s-0.7,1-1.3,1.4C8.9,8.6,8.3,8.8,7.6,9S6.1,9.3,5.3,9.3H3.6v5.6H0V0h5.4[m[41m[m
+[32m+[m	[32mC6.2,0,7,0.1,7.7,0.3C8.4,0.4,9,0.7,9.5,1s0.9,0.8,1.2,1.4C11.1,3,11.2,3.7,11.2,4.6z M7.6,4.6c0-0.3-0.1-0.6-0.2-0.9[m[41m[m
+[32m+[m	[32mC7.3,3.5,7.1,3.3,6.9,3.2C6.6,3.1,6.4,3,6.1,3S5.5,2.9,5.2,2.9H3.6v3.5h1.5c0.3,0,0.7,0,1-0.1S6.6,6.2,6.9,6[m[41m[m
+[32m+[m	[32mc0.2-0.1,0.4-0.3,0.6-0.6C7.6,5.2,7.6,5,7.6,4.6z"/>[m[41m[m
+[32m+[m[32m<path d="M23.4,14.8l-1.2-2.9h-5.7l-1.1,2.9h-3.9L17.8,0h3.5l6.2,14.8H23.4z M19.5,4l-1.9,5.1h3.7L19.5,4z"/>[m[41m[m
+[32m+[m[32m<path d="M36.6,14.8L33.5,9h-1.2v5.9h-3.5V0h5.7c0.7,0,1.4,0.1,2.1,0.2c0.7,0.1,1.3,0.4,1.8,0.7s1,0.8,1.3,1.4[m[41m[m
+[32m+[m	[32mC39.8,2.9,40,3.6,40,4.5c0,1-0.3,1.8-0.8,2.5S38,8.2,37,8.5l3.9,6.3H36.6z M36.5,4.6c0-0.3-0.1-0.6-0.2-0.8[m[41m[m
+[32m+[m	[32mc-0.1-0.2-0.3-0.4-0.6-0.5C35.5,3.1,35.2,3,35,3S34.3,2.9,34,2.9h-1.9v3.5h1.7c0.3,0,0.6,0,0.9-0.1c0.3,0,0.6-0.1,0.8-0.3[m[41m[m
+[32m+[m	[32mc0.3-0.1,0.5-0.3,0.6-0.5C36.5,5.2,36.5,4.9,36.5,4.6z"/>[m[41m[m
+[32m+[m[32m<path d="M52.6,14.8l-1.2-2.9h-5.7l-1.1,2.9h-3.9L47,0h3.5l6.2,14.8H52.6z M48.6,4l-1.9,5.1h3.7L48.6,4z"/>[m[41m[m
+[32m+[m[32m<path d="M57.8,14.8V0h3.6v11.7h5.7v3.1C67.1,14.8,57.8,14.8,57.8,14.8z"/>[m[41m[m
+[32m+[m[32m<path d="M68.9,14.8V0h3.6v11.7h5.7v3.1C78.1,14.8,68.9,14.8,68.9,14.8z"/>[m[41m[m
+[32m+[m[32m<path d="M79.9,14.8V0h10v3h-6.5v2.8h6.2v2.9h-6.2v3.1h6.9v3.1H79.9V14.8z"/>[m[41m[m
+[32m+[m[32m<path d="M92.6,14.8V0h3.6v11.7h5.7v3.1C101.8,14.8,92.6,14.8,92.6,14.8z"/>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/pause.svg b/img/pause.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..808866c[m
+[1m--- /dev/null[m
+[1m+++ b/img/pause.svg[m
+[36m@@ -0,0 +1,41 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="iso-8859-1"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">[m[41m[m
+[32m+[m[32m<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m width="357px" height="357px" viewBox="0 0 357 357" style="enable-background:new 0 0 357 357;" xml:space="preserve">[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<g id="pause">[m[41m[m
+[32m+[m		[32m<path fill="white" d="M25.5,357h102V0h-102V357z M229.5,0v357h102V0H229.5z"/>[m[41m[m
+[32m+[m	[32m</g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/play.svg b/img/play.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a717ded[m
+[1m--- /dev/null[m
+[1m+++ b/img/play.svg[m
+[36m@@ -0,0 +1,38 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="iso-8859-1"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 41.999 41.999" style="enable-background:new 0 0 41.999 41.999;" xml:space="preserve">[m[41m[m
+[32m+[m[32m<path fill="white" d="M36.068,20.176l-29-20C6.761-0.035,6.363-0.057,6.035,0.114C5.706,0.287,5.5,0.627,5.5,0.999v40[m[41m[m
+[32m+[m	[32mc0,0.372,0.206,0.713,0.535,0.886c0.146,0.076,0.306,0.114,0.465,0.114c0.199,0,0.397-0.06,0.568-0.177l29-20[m[41m[m
+[32m+[m	[32mc0.271-0.187,0.432-0.494,0.432-0.823S36.338,20.363,36.068,20.176z"/>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/privat.svg b/img/privat.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..cb43504[m
+[1m--- /dev/null[m
+[1m+++ b/img/privat.svg[m
+[36m@@ -0,0 +1,31 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 80 70" enable-background="new 0 0 80 70" xml:space="preserve">[m[41m[m
+[32m+[m[32m<g id="XMLID_76_">[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_91_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM22.5,42v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_89_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM16.5,42v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_87_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM28.5,42v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_85_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM8.5,30v29h37V20L8.5,30z"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_83_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM44.5,34h-35"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_81_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM45.5,59h26V41h-26"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_79_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM50.5,59v-9h16v9"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_77_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM32.5,59v-9h8v9"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/right-arrow-angle.svg b/img/right-arrow-angle.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..342a9f6[m
+[1m--- /dev/null[m
+[1m+++ b/img/right-arrow-angle.svg[m
+[36m@@ -0,0 +1,42 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="iso-8859-1"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">[m[41m[m
+[32m+[m[32m<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 792 792" style="enable-background:new 0 0 792 792;" xml:space="preserve">[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<g id="Rectangle_5_copy">[m[41m[m
+[32m+[m		[32m<g>[m[41m[m
+[32m+[m			[32m<polygon points="580.802,369.604 580.802,369.604 211.198,0 184.802,26.396 554.405,396 184.802,765.604 211.198,792      607.198,396    " stroke="#3452e8" stroke-width="50px" fill="#3452e8"/>[m[41m[m
+[32m+[m		[32m</g>[m[41m[m
+[32m+[m	[32m</g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/shadow.png b/img/shadow.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b3b6b20[m
+Binary files /dev/null and b/img/shadow.png differ
+[1mdiff --git a/img/ship.svg b/img/ship.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4956d03[m
+[1m--- /dev/null[m
+[1m+++ b/img/ship.svg[m
+[36m@@ -0,0 +1,44 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 80 70" enable-background="new 0 0 80 70" xml:space="preserve">[m[41m[m
+[32m+[m[32m<g id="XMLID_193_">[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_217_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM38,38.5v-18h10v18"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_215_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM51,38.5v-18h10v18"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_213_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM61,26.5H51"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_211_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM48,26.5H38"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_209_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM13,42.5v-4h55l-2,5.3"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_207_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM13,38.5v-4l20-3v7"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_205_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM65,56.5l7-13H62l-2,3H25l-2-4H8l7,14"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_203_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM29,42.5h5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_201_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM37,42.5h5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_199_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM45,42.5h5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_197_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM53,42.5h5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_195_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM10,59.5c2.1,0,3.1-3,5-3s3.1,3,5,3s2.9-3,5-3s3,3,5,3s3-3,5-3s3,3,5,3s2.9-3,5-3s3,3,5,3s3.1-3,5-3s3.1,3,5,3c1.9,0,2.9-3,5-3[m[41m[m
+[32m+[m		[32mc2.1,0,3,3,5,3"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/the-parallel_logo.svg b/img/the-parallel_logo.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b703ee9[m
+[1m--- /dev/null[m
+[1m+++ b/img/the-parallel_logo.svg[m
+[36m@@ -0,0 +1,38 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 469.7 187.5" style="enable-background:new 0 0 469.7 187.5;" xml:space="preserve">[m[41m[m
+[32m+[m[32m<style type="text/css">[m[41m[m
+[32m+[m	[32m.st0{fill:#011FFF;}[m[41m[m
+[32m+[m[32m</style>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<path d="M203.8,85h10.3c1.4,0,2.8,0.1,4.1,0.4c1.3,0.3,2.4,0.7,3.3,1.3c0.9,0.6,1.7,1.5,2.3,2.6c0.6,1.1,0.8,2.4,0.8,4.1[m[41m[m
+[32m+[m		[32mc0,1.6-0.3,3-0.8,4.1c-0.5,1.1-1.2,2-2.1,2.6c-0.9,0.7-2,1.1-3.2,1.4c-1.2,0.3-2.6,0.4-4.1,0.4h-4.4v10.8h-6.1V85z M209.9,96.7h4.1[m[41m[m
+[32m+[m		[32mc0.5,0,1.1-0.1,1.6-0.2c0.5-0.1,1-0.3,1.4-0.5c0.4-0.2,0.7-0.6,1-1c0.2-0.4,0.4-1,0.4-1.6c0-0.7-0.2-1.3-0.5-1.7[m[41m[m
+[32m+[m		[32mc-0.3-0.4-0.7-0.8-1.2-1c-0.5-0.2-1.1-0.4-1.7-0.4c-0.6-0.1-1.2-0.1-1.8-0.1h-3.1V96.7z"/>[m[41m[m
+[32m+[m	[32m<path d="M234.6,85h5l12,27.6h-6.9l-2.4-5.8h-10.7l-2.3,5.8h-6.7L234.6,85z M237,93l-3.4,8.6h6.7L237,93z"/>[m[41m[m
+[32m+[m	[32m<path d="M254.4,85h10.7c1.4,0,2.7,0.1,4,0.4c1.3,0.3,2.4,0.7,3.3,1.4c0.9,0.6,1.7,1.5,2.3,2.6c0.6,1.1,0.8,2.4,0.8,4[m[41m[m
+[32m+[m		[32mc0,2-0.5,3.6-1.5,5c-1,1.4-2.5,2.2-4.4,2.6l7,11.7h-7.3l-5.8-11h-3v11h-6.1V85z M260.5,96.4h3.6c0.5,0,1.1,0,1.7-0.1[m[41m[m
+[32m+[m		[32ms1.2-0.2,1.7-0.4c0.5-0.2,0.9-0.5,1.2-0.9c0.3-0.4,0.5-1,0.5-1.8c0-0.7-0.1-1.3-0.4-1.7c-0.3-0.4-0.7-0.7-1.1-1[m[41m[m
+[32m+[m		[32mc-0.4-0.2-0.9-0.4-1.5-0.4c-0.6-0.1-1.1-0.1-1.7-0.1h-4V96.4z"/>[m[41m[m
+[32m+[m	[32m<path d="M288.8,85h5l12,27.6H299l-2.4-5.8h-10.7l-2.3,5.8h-6.7L288.8,85z M291.1,93l-3.4,8.6h6.7L291.1,93z"/>[m[41m[m
+[32m+[m	[32m<path d="M308.8,85h6.1v22h11.3v5.6h-17.4V85z"/>[m[41m[m
+[32m+[m	[32m<path d="M329.8,85h6.1v22h11.3v5.6h-17.4V85z"/>[m[41m[m
+[32m+[m	[32m<path d="M350.7,85h18.8v5.6h-12.7v5.1h12v5.6h-12v5.6h13.4v5.6h-19.5V85z"/>[m[41m[m
+[32m+[m	[32m<path d="M375.3,85h6.1v22h11.3v5.6h-17.4V85z"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<path d="M66.9,90.4H59V85h21.8v5.4h-7.9v22.2h-6.1V90.4z"/>[m[41m[m
+[32m+[m	[32m<path d="M83.9,85H90v10.3h11.8V85h6.1v27.6h-6.1v-11.9H90v11.9h-6.1V85z"/>[m[41m[m
+[32m+[m	[32m<path d="M113.7,85h18.8v5.6h-12.7v5.1h12v5.6h-12v5.6h13.4v5.6h-19.5V85z"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<rect x="167" y="1.1" class="st0" width="6" height="184.5"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<rect x="459" y="47.9" class="st0" width="6" height="104"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<rect x="1" y="74.6" class="st0" width="6" height="45.7"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/the-white.svg b/img/the-white.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e7f6a0f[m
+[1m--- /dev/null[m
+[1m+++ b/img/the-white.svg[m
+[36m@@ -0,0 +1,17 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 41 14.8" style="enable-background:new 0 0 41 14.8;" xml:space="preserve">[m[41m[m
+[32m+[m[32m<style type="text/css">[m[41m[m
+[32m+[m	[32m.st0{fill:#FFFFFF;}[m[41m[m
+[32m+[m[32m</style>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<path class="st0" d="M8.3,3.1v11.8H4.7V3.1H0.5V0h12v3.1H8.3z"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<path class="st0" d="M23.5,14.8V8.6h-5.8v6.2h-3.6V0h3.6v5.6h5.8V0h3.6v14.8H23.5z"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<path class="st0" d="M30.1,14.8V0h10v3h-6.6v2.8h6.2v2.9h-6.2v3.1h6.9v3.1H30.1V14.8z"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/the.svg b/img/the.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..370c5d9[m
+[1m--- /dev/null[m
+[1m+++ b/img/the.svg[m
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 41 14.8" with="41" height="14.8" style="enable-background:new 0 0 41 14.8;" xml:space="preserve">[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<path d="M8.3,3.1v11.8H4.7V3.1H0.5V0h12v3.1H8.3z"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<path d="M23.5,14.8V8.6h-5.8v6.2h-3.6V0h3.6v5.6h5.8V0h3.6v14.8H23.5z"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m<g>[m[41m[m
+[32m+[m	[32m<path d="M30.1,14.8V0h10v3h-6.6v2.8h6.2v2.9h-6.2v3.1h6.9v3.1H30.1V14.8z"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/img/urban.svg b/img/urban.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..eb62235[m
+[1m--- /dev/null[m
+[1m+++ b/img/urban.svg[m
+[36m@@ -0,0 +1,73 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+[32m+[m[32m<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->[m[41m[m
+[32m+[m[32m<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"[m[41m[m
+[32m+[m	[32m viewBox="0 0 80 70" enable-background="new 0 0 80 70" xml:space="preserve">[m[41m[m
+[32m+[m[32m<g id="XMLID_93_">[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_136_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM36,52v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_134_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM43,52v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_132_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM50,52v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_130_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM36,44v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_128_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM43,44v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_126_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM50,44v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_124_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM36,36v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_122_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM43,36v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_120_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM50,36v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_118_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM36,28v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_116_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM43,28v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_114_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM50,28v5"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_112_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM55,23H29"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_110_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM71,22H54"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_108_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM71,35H54"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_106_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM71,48H54"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_104_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM24,59V32"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_102_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM19,59V32"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_100_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM14,59V32"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_98_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM29,16v43h26V16H29z"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_96_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM45,59h26V17L45,7v9.3"/>[m[41m[m
+[32m+[m[41m	[m
+[32m+[m		[32m<path id="XMLID_94_" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="[m[41m[m
+[32m+[m		[32mM29,26H9v33h20"/>[m[41m[m
+[32m+[m[32m</g>[m[41m[m
+[32m+[m[32m</svg>[m[41m[m
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..053ea0a[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,1186 @@[m
+[32m+[m[32m﻿<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m	[32m<!-- Mirrored from the-parallel.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Aug 2018 04:50:35 GMT -->[m
+[32m+[m	[32m<head>[m
+[32m+[m		[32m<meta charset="utf-8">[m
+[32m+[m		[32m<title> A & P </title>[m
+[32m+[m[41m		[m
+[32m+[m		[32m<meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+[32m+[m		[32m<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">[m
+[32m+[m		[32m<meta name="theme-color" content="white">[m
+[32m+[m		[32m<link rel="shortcut icon" href="img/artboard_35_Yk8_icon.ico" type="image/x-icon">[m
+[32m+[m		[32m<!-- Critical resources -->[m
+[32m+[m		[32m<link rel="stylesheet" href="styles/criticalabe0.css?version=31">[m
+[32m+[m		[32m<!-- IE -->[m
+[32m+[m		[32m<script src="scripts/ie.js"> </script>[m
+[32m+[m		[32m<!-- Enable site inserting via iframe -->[m
+[32m+[m		[32m<script type="text/javascript"> if (window.parent.frames.length > 0) { window.stop(); } </script>[m
+[32m+[m		[32m<!-- Async styles -->[m
+[32m+[m		[32m<link rel="stylesheet" href="styles/indexabe0.css?version=31" media="none" onload="if(media!='all')media='all'">[m
+[32m+[m	[32m</head>[m
+[32m+[m	[32m<body>[m
+[32m+[m		[32m<!-- Routing -->[m
+[32m+[m		[32m<div class="routePreloader"></div>[m
+[32m+[m		[32m<style>[m
+[32m+[m			[32m.routePreloader {[m
+[32m+[m				[32mwidth: 100vw;[m
+[32m+[m				[32mheight: 100vh;[m
+[32m+[m				[32mposition: fixed;[m
+[32m+[m				[32mleft: 0;[m
+[32m+[m				[32mtop: 0;[m
+[32m+[m				[32mbackground: #3452E8 url(img/load.gif) no-repeat center center;[m
+[32m+[m				[32mbackground-size: 30px auto;[m
+[32m+[m				[32mz-index: 30000;[m
+[32m+[m				[32mopacity: 1;[m
+[32m+[m				[32mtransition: opacity 0.5s;[m
+[32m+[m				[32mpointer-events: none;[m
+[32m+[m				[32mdisplay: none;[m
+[32m+[m			[32m}[m
+[32m+[m			[32m.routePreloader.show {[m
+[32m+[m				[32mdisplay: block;[m
+[32m+[m			[32m}[m
+[32m+[m			[32m.routePreloader.hide {[m
+[32m+[m				[32mopacity: 0;[m
+[32m+[m			[32m}[m
+[32m+[m		[32m</style>[m
+[32m+[m		[32m<script>[m
+[32m+[m			[32m(function () {[m
+[32m+[m				[32mvar documentHash = window.location.hash;[m
+[32m+[m				[32mswitch (documentHash) {[m
+[32m+[m					[32mcase '#vrinsales':[m
+[32m+[m						[32mshowPreloader();[m
+[32m+[m						[32mbreak;[m
+[32m+[m					[32mcase '#cases':[m
+[32m+[m						[32mshowPreloader();[m
+[32m+[m						[32mbreak;[m
+[32m+[m					[32mcase '#contacts':[m
+[32m+[m						[32mshowPreloader();[m
+[32m+[m						[32mbreak;[m
+[32m+[m				[32m}[m
+[32m+[m				[32mfunction showPreloader() {[m
+[32m+[m					[32mdocument.querySelector('.routePreloader').classList.add('show');[m
+[32m+[m				[32m}[m
+[32m+[m			[32m}());[m
+[32m+[m		[32m</script>[m
+[32m+[m		[32m<!-- Mobile -->[m
+[32m+[m		[32m<div class="loaderOverlay">[m
+[32m+[m			[32m<div class="logoLoader">[m
+[32m+[m				[32m<div class="loaderLine loaderLine1"></div>[m
+[32m+[m				[32m<div class="loaderLine loaderLine2"></div>[m
+[32m+[m				[32m<div class="loaderLine loaderLine3"></div>[m
+[32m+[m			[32m</div>[m
+[32m+[m		[32m</div>[m
+[32m+[m		[32m<!-- Mobile -->[m
+[32m+[m		[32m<!-- <section class="mobile">[m
+[32m+[m			[32m<div class="container">[m
+[32m+[m					[32m<img class="mobileLogo" src="img/logo-for-ie.png">[m
+[32m+[m					[32m<h2 class="useDesktop">Use desktop browser for better experience</h2>[m
+[32m+[m					[32m<a class="goToMobile" href="http://m.the-parallel.com/"> Go to mobile version</a>[m
+[32m+[m					[32m<div class="mobile-contacts">[m
+[32m+[m							[32m<div class="data">[m
+[32m+[m									[32m<div class="address">[m
+[32m+[m											[32m<h2 class="item city"> <span class="country"> Belarus</span>, Minsk </h2>[m
+[32m+[m											[32m<div class="item street"> Nezavisimosty av. 85G office 87 </div>[m
+[32m+[m									[32m</div>[m
+[32m+[m									[32m<a class="item" href="tel:+375 29 310 10 10"> +375 29 310 10 10 </a>[m
+[32m+[m							[32m</div>[m
+[32m+[m							[32m<div class="data">[m
+[32m+[m									[32m<div class="address">[m
+[32m+[m											[32m<h2 class="item city"> <span class="country"> Ukraine</span>, Kiev </h2>[m
+[32m+[m											[32m<div class="item street"> Shota Rustavelli str. 44, office 102 </div>[m
+[32m+[m									[32m</div>[m
+[32m+[m									[32m<a class="item" href="tel:+38 098 109 88 88"> +38 098 109 88 88 </a>[m
+[32m+[m							[32m</div>[m
+[32m+[m							[32m<div class="data">[m
+[32m+[m									[32m<div class="address">[m
+[32m+[m											[32m<h2 class="item city"> <span class="country"> Austria</span>, Vienna </h2>[m
+[32m+[m											[32m<div class="item street"> Ruthgasse 1/2/10 </div>[m
+[32m+[m									[32m</div>[m
+[32m+[m									[32m<a class="item" href="tel:+43 699 141 272 39"> +43 699 141 272 39 </a>[m
+[32m+[m							[32m</div>[m
+[32m+[m							[32m<div class="data">[m
+[32m+[m									[32m<div class="address">[m
+[32m+[m											[32m<h2 class="item city"> <span class="country"> USA</span>, New York </h2>[m
+[32m+[m											[32m<div class="item street"> 6901 Narrows Ave Ste 3A, Brooklyn, 11209 </div>[m
+[32m+[m									[32m</div>[m
+[32m+[m									[32m<a class="item" href="tel:+1 347 834 03 18"> +1 347 834 03 18 </a>[m
+[32m+[m							[32m</div>[m
+[32m+[m							[32m<div class="data">[m
+[32m+[m									[32m<div class="address">[m
+[32m+[m											[32m<h2 class="item city"> <span class="country"> Australia</span>, Sydney </h2>[m
+[32m+[m											[32m<div class="item street"> 6901 Narrows Ave Ste 3A, Brooklyn, 11209 </div>[m
+[32m+[m									[32m</div>[m
+[32m+[m							[32m</div>[m
+[32m+[m							[32m<a href="http://jazzpixels.com/" target="_blank" class="jp">© 2017 Website created by Jazz Pixels</a>[m
+[32m+[m					[32m</div>[m
+[32m+[m			[32m</div>[m
+[32m+[m		[32m</section> -->[m
+[32m+[m		[32m<!-- Logo and lines -->[m
+[32m+[m		[32m<div class="logoAndLines">[m
+[32m+[m			[32m<div class="lines">[m
+[32m+[m				[32m<div class="line line-1"></div>[m
+[32m+[m				[32m<div class="transformOriginLayer">[m
+[32m+[m					[32m<div class="line line-2"></div>[m
+[32m+[m				[32m</div>[m
+[32m+[m				[32m<div class="line line-3"></div>[m
+[32m+[m			[32m</div>[m
+[32m+[m			[32m<div class="rect"> </div>[m
+[32m+[m			[32m<header class="header">[m
+[32m+[m				[32m<h1 class="title">[m
+[32m+[m				[32m<div class="titleLeft">[m
+[32m+[m					[32m<div class="animatedLayer">[m
+[32m+[m						[32m<div class="the"> </div>[m
+[32m+[m					[32m</div>[m
+[32m+[m				[32m</div>[m
+[32m+[m				[32m<div class="titleRight">[m
+[32m+[m					[32m<div class="animatedLayer">[m
+[32m+[m						[32m<div class="parallel"> </div>[m
+[32m+[m					[32m</div>[m
+[32m+[m				[32m</div>[m
+[32m+[m				[32m</h1>[m
+[32m+[m				[32m<p class="tagline">Accounting co., ltd. </p>[m
+[32m+[m			[32m</header>[m
+[32m+[m		[32m</div>[m
+[32m+[m		[32m<!-- Scroll down arrow -->[m
+[32m+[m		[32m<button class="scrollDown" title="Scroll down">[m
+[32m+[m		[32m<div class="loader">[m
+[32m+[m			[32m<div class="rotate-wrapper">[m
+[32m+[m				[32m<div class="loader-lines">[m
+[32m+[m					[32m<div class="loader-line top"> </div>[m
+[32m+[m					[32m<div class="loader-line bottom"> </div>[m
+[32m+[m					[32m<div class="loader-line left"> </div>[m
+[32m+[m					[32m<div class="loader-line right"> </div>[m
+[32m+[m				[32m</div>[m
+[32m+[m				[32m<div class="arrow">[m
+[32m+[m					[32m<div class="arrow-line one"></div>[m
+[32m+[m					[32m<div class="arrow-line two"></div>[m
+[32m+[m				[32m</div>[m
+[32m+[m			[32m</div>[m
+[32m+[m		[32m</div>[m
+[32m+[m		[32m</button>[m
+[32m+[m		[32m<!-- Link to creator -->[m
+[32m+[m		[32m<strong class="creator"></strong>[m
+[32m+[m		[32m<!-- Init Screen -->[m
+[32m+[m		[32m<section class="initScreen section">[m
+[32m+[m			[32m<div class="langs">[m
+[32m+[m				[32m<a href="index.html" class="en">Kh</a>[m
+[32m+[m				[32m<a href="#" class="">Kr</a>[m
+[32m+[m				[32m<a href="#" class="">En</a>[m
+[32m+[m			[32m</div>[m
+[32m+[m			[32m<script>[m
+[32m+[m				[32m(function () {[m
+[32m+[m					[32mwindow.addEventListener('load', function() {[m
+[32m+[m						[32mdocument.querySelector('.langs').classList.add('showWhenLoad');[m
+[32m+[m					[32m});[m
+[32m+[m					[32mvar languageSwitcher = document.querySelectorAll('.langs a');[m
+[32m+[m					[32mvar switcherLang;[m
+[32m+[m					[32mvar currentLang = window.location.pathname;[m
+[32m+[m					[32mvar clientLang = window.navigator.language;[m
+[32m+[m					[32mvar ruPath = '';[m
+[32m+[m					[32mvar documentHash = window.location.hash;[m
+[32m+[m					[32m// if(localStorage.getItem('userLangSelected') == 'ru' && currentLang != ruPath) {[m
+[32m+[m						[32m// 	if(documentHash == '#vrinsales' || documentHash == '#cases' || documentHash == '#contacts' ) {[m
+[32m+[m							[32m// 		window.location.href = ruPath + documentHash;[m
+[32m+[m						[32m// 	} else {[m
+[32m+[m							[32m// 		window.location.href = ruPath;[m
+[32m+[m						[32m// 	}[m
+[32m+[m					[32m// }[m
+[32m+[m					[32mif( clientLang == 'ru' && currentLang != ruPath && localStorage.getItem('userLangSelected') != 'en') {[m
+[32m+[m						[32mif(documentHash == '#vrinsales' || documentHash == '#cases' || documentHash == '#contacts' ) {[m
+[32m+[m							[32mwindow.location.href = ruPath + documentHash;[m
+[32m+[m						[32m} else {[m
+[32m+[m							[32mwindow.location.href = ruPath;[m
+[32m+[m						[32m}[m
+[32m+[m					[32m}[m
+[32m+[m					[32mfor( var i = 0; i < languageSwitcher.length; i++ ) {[m
+[32m+[m						[32mlanguageSwitcher[i].addEventListener('click', function(e) {[m
+[32m+[m							[32mswitcherLang = e.target.getAttribute("class");[m
+[32m+[m							[32mif(e.target.classList.contains('en')) {[m
+[32m+[m								[32mlocalStorage.setItem('userLangSelected', 'en');[m
+[32m+[m							[32m}[m
+[32m+[m							[32m// if(e.target.classList.contains('ru')) {[m
+[32m+[m								[32m// 	localStorage.setItem('userLangSelected', 'ru');[m
+[32m+[m							[32m// }[m
+[32m+[m						[32m})[m
+[32m+[m					[32m}[m
+[32m+[m				[32m}());[m
+[32m+[m			[32m</script>[m
+[32m+[m		[32m</section>[m
+[32m+[m		[32m<!-- Indicator -->[m
+[32m+[m		[32m<aside class="indicator">[m
+[32m+[m			[32m<nav>[m
+[32m+[m				[32m<div class="navItem">[m
+[32m+[m					[32m<button class="point current" data-goto="0"></button>[m
+[32m+[m					[32m<div class="itemDesription">Start</div>[m
+[32m+[m				[32m</div>[m
+[32m+[m				[32m<div class="navItem">[m
+[32m+[m					[32m<button class="point" data-goto="1"></button>[m
+[32m+[m					[32m<div class="itemDesription">CEO Message</div>[m
+[32m+[m				[32m</div>[m
+[32m+[m				[32m<div class="navItem">[m
+[32m+[m					[32m<button class="point" data-goto="2"></button>[m
+[32m+[m					[32m<div class="itemDesription">Brief History</div>[m
+[32m+[m				[32m</div>[m
+[32m+[m				[32m<div class="navItem">[m
+[32m+[m					[32m<button class="point" data-goto="3"></button>[m
+[32m+[m					[32m<div class="itemDesription">Organization Structure</div>[m
+[32m+[m				[32m</div>[m
+[32m+[m				[32m<div class="navItem">[m
+[32m+[m					[32m<button class="point" data-goto="4"></button>[m
+[32m+[m					[32m<div class="itemDesription">Scope And Services</div>[m
+[32m+[m				[32m</div>[m
+[32m+[m				[32m<div class="navItem">[m
+[32m+[m					[32m<button class="point" data-goto="5"></button>[m
+[32m+[m					[32m<div class="itemDesription">Showcase</div>[m
+[32m+[m				[32m</div>[m
+[32m+[m[32m<!-- 				<div class="navItem">[m
+[32m+[m						[32m<button class="point" data-goto="5"></button>[m
+[32m+[m						[32m<div class="itemDesription">Contacts</div>[m
+[32m+[m				[32m</div> -->[m
+[32m+[m				[32m<!-- <div class="navItem">[m
+[32m+[m						[32m<button class="point" data-goto="6"></button>[m
+[32m+[m						[32m<div class="itemDesription">Contacts</div>[m
+[32m+[m				[32m</div> -->[m
+[32m+[m			[32m</nav>[m
+[32m+[m		[32m</aside>[m
+[32m+[m		[32m<!-- Menu button -->[m
+[32m+[m		[32m<button class="menuButton">[m
+[32m+[m		[32m<div class="menu-lines">[m
+[32m+[m			[32m<div class="menu-line"> </div>[m
+[32m+[m			[32m<div class="menu-line"> </div>[m
+[32m+[m			[32m<div class="menu-line"> </div>[m
+[32m+[m		[32m</div>[m
+[32m+[m		[32m</button>[m
+[32m+[m		[32m<!-- Menu -->[m
+[32m+[m		[32m<section class="menu">[m
+[32m+[m			[32m<div class="menuCube">[m
+[32m+[m				[32m<div class="menuFace menuFace1">[m
+[32m+[m				[32m</div>[m
+[32m+[m				[32m<div class="menuFace menuFace2">[m
+[32m+[m					[32m<nav class="navigation">[m
+[32m+[m						[32m<ul>[m
+[32m+[m							[32m<li>[m
+[32m+[m								[32m<a class="currentSection" data-go-to="1">About</a>[m
+[32m+[m							[32m</li>[m
+[32m+[m							[32m<li>[m
+[32m+[m								[32m<a class="" data-go-to="2">CEO Message</a>[m
+[32m+[m							[32m</li>[m
+[32m+[m							[32m<li>[m
+[32m+[m								[32m<a class="" data-go-to="3">Brief History</a>[m
+[32m+[m							[32m</li>[m
+[32m+[m							[32m<li>[m
+[32m+[m								[32m<a class="" data-go-to="3">Scope And Services</a>[m
+[32m+[m							[32m</li>[m
+[32m+[m							[32m<!-- <li>[m
+[32m+[m									[32m<a class="" data-go-to="4">Showcase</a>[m
+[32m+[m							[32m</li>[m
+[32m+[m							[32m<li>[m
+[32m+[m									[32m<a class="" data-go-to="5">Contacts</a>[m
+[32m+[m							[32m</li> -->[m
+[32m+[m						[32m</ul>[m
+[32m+[m					[32m</nav>[m
+[32m+[m					[32m<div class="copyright">[m
+[32m+[m					[32m</div>[m
+[32m+[m					[32m<img class="logo" src="img/Asset3.svg">[m
+[32m+[m					[32m<strong class="creatorLabel"></strong>[m
+[32m+[m					[32m<button class="closeMenuButton"> </button>[m
+[32m+[m				[32m</div>[m
+[32m+[m			[32m</div>[m
+[32m+[m		[32m</section>[m
+[32m+[m		[32m<!-- Contact-us button -->[m
+[32m+[m		[32m<button class="contactUsButton">Contact Us</button>[m
+[32m+[m		[32m<!-- About solition -->[m
+[32m+[m		[32m<section class="aboutSolution section">[m
+[32m+[m			[32m<div class="about about-1">[m
+[32m+[m				[32m<div class="animatedLayer">[m
+[32m+[m					[32m<article><h2> CEO Message  </h2>[m
+[32m+[m						[32m<p>At CPA Australia we are deeply proud of our 60 years in Hong Kong – a wonderful milestone to celebrate as we enter our organisation’s 130th year.[m
+[32m+[m						[32m</p>[m
+[32m+[m						[32m<br>[m
+[32m+[m						[32m<p>[m
+[32m+[m							[32mOur success in Hong Kong is in no small part due to the tireless work of those members who have volunteered their time, energy and expertise to the Divisional Council, committees, task forces and the many initiatives and activities driven by the Hong Kong office. I thank our local management and staff, past and present, for their vital role in helping CPA Australia fulfil its objectives and for upholding the principles and high standards of the CPA Australia designation.[m
+[32m+[m						[32m</p>[m
+[32m+[m						[32m<br>[m
+[32m+[m						[32m<p>I pay tribute to the pioneering generation of CPA Australia members and staff who laid the foundation for our presence in Hong Kong.</p>[m
+[32m+[m						[32m<br>[m
+[32m+[m						[32m<p>Our Hong Kong members are an important part of the CPA Australia family, which now spreads across the globe. The value of the CPA designation is reflected in our demographics. Collectively, around 17 per cent of our members hold senior leadership positions, including more than 25,000 members at CEO or CFO level, or in business ownership or partner roles.</p>[m
+[32m+[m						[32m<br>[m
+[32m+[m						[32m<p>I thank each of you for your contribution over the past 60 years and for making the Hong Kong Division as successful and dynamic as it is today.</p>[m
+[32m+[m[41m						[m
+[32m+[m					[32m</article>[m
+[32m+[m				[32m</div>[m
+[32m+[m			[32m</div>[m
+[32m+[m			[32m<div class="about about-2">[m
+[32m+[m				[32m<div class="animatedLayer">[m
+[32m+[m					[32m<article>[m
+[32m+[m						[32m<br>[m
+[32m+[m						[32m<br>[m
+[32m+[m						[32m<p>On behalf of my Board colleagues, I congratulate all who have helped CPA Australia reach this important anniversary and congratulate you on 60 wonderful years in Hong Kong.</p> </br>[m
+[32m+[m						[32m<p>I pay tribute to the pioneering generation of CPA Australia members and 

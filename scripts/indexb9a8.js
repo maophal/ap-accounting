@@ -8,23 +8,25 @@
 
             i: n,
 
-            l: !1,
+            l: false,
 
             exports: {}
 
         };
 
-        return e[n].call(s.exports, s, s.exports, t), s.l = !0, s.exports
-
+        e[n].call(s.exports, s, s.exports, t); // function (this, e: s, t: s.exports, o: t)
+        s.l = true;
+        return s.exports;
     }
 
     var o = {};
 
-    t.m = e, t.c = o, t.i = function(e) {
+    t.m = e
+    t.c = o
 
-        return e
-
-    }, t.d = function(e, o, n) {
+    t.i = function(e) { return e }
+    
+    t.d = function(e, o, n) {
 
         t.o(e, o) || Object.defineProperty(e, o, {
 
@@ -34,47 +36,44 @@
 
             get: n
 
-        })
+        });
+    }
+    
+    t.n = function(e) {
 
-    }, t.n = function(e) {
+        var o = e && e.__esModule ? function() { return e.default } : function() { return e };
 
-        var o = e && e.__esModule ? function() {
+        t.d(o, "a", o);
 
-            return e.default
+        return o;
+    }
+    
+    t.o = function(e, t) { return Object.prototype.hasOwnProperty.call(e, t); }
 
-        } : function() {
+    t.p = "";
 
-            return e
+    t(t.s = 36);
 
-        };
-
-        return t.d(o, "a", o), o
-
-    }, t.o = function(e, t) {
-
-        return Object.prototype.hasOwnProperty.call(e, t)
-
-    }, t.p = "", t(t.s = 36)
-
-}([function(e, t, o) {
-
+}
+([function(e, t, o) {
+// return all Element  in index page 
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
 
         value: !0
 
-    }), t.default = function(e) {
-
+    });
+    t.default = function(e) {
+        // console.log(document.querySelector(e));
         return document.querySelector(e)
 
+
     }
-
-}, function(e, t, o) {
-
+}, 
+function(e, t, o) {
+ // do go to contact page 
     "use strict";
-
-
 
     function n(e) {
 
@@ -104,41 +103,41 @@
 
             toggleVisible: function(e) {
 
-                "show" == e && a.classList.add("show"), "hide" == e && a.classList.remove("show")
+                "show" == e && a.classList.add("show"), "hide" == e && a.classList.remove("show");
 
             },
 
             setListeners: function() {
 
-                a.addEventListener("click", l.goToContacts)
-
+                a.addEventListener("click", l.goToContacts);
             },
 
             goToContacts: function() {
-
+                // funtion click go to contact section 
                 document.body.classList.add("showCaseEffect"), setTimeout(function() {
 
                     i.default.goToSection(5)
 
-                }, 320), setTimeout(function() {
+                }, 320);
+                setTimeout(function() {
 
                     document.body.classList.remove("showCaseEffect")
 
-                }, 1200)
+                }, 1200);
 
             },
 
-            disableButton: function() {
+            // disableButton: function() {
 
-                a.classList.add("disable")
+            //     a.classList.add("disable")
 
-            },
+            // },
 
-            enableButton: function() {
+            // enableButton: function() {
 
-                a.classList.remove("disable")
+            //     a.classList.remove("disable")
 
-            },
+            // },
 
             init: function() {
 
@@ -148,13 +147,11 @@
 
         };
 
-    t.default = l
-
-}, function(e, t, o) {
+    t.default = l;
+}, 
+function(e, t, o) {
 
     "use strict";
-
-
 
     function n(e) {
 
@@ -203,20 +200,18 @@
         p = {
 
             highlight: function(e) {
-
+                //highlight to point 
                 for (var t = 0; t < w.length; t++) w[t].classList.remove("current");
 
                 w[e].classList.add("current")
-
             },
 
             goToSection: function(e) {
-
+                // to click go to section that you want  
                 e.preventDefault();
 
-                var t = e.target.dataset.goto,
-
-                    o = v.default.state.currentSection,
+                var t = e.target.dataset.goto; // return  index of section that click 
+                    o = v.default.state.currentSection;
 
                     n = parseInt(t, 10) + 1;
 
@@ -279,7 +274,7 @@
             setListeners: function() {
 
                 for (var e = 0; e < w.length; e++) w[e].addEventListener("click", function(e) {
-
+                    console.log(e);
                     p.goToSection(e)
 
                 })
@@ -319,8 +314,8 @@
         };
 
     t.default = p
-
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -544,7 +539,8 @@
 
     }).call(t, o(33))
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -674,7 +670,8 @@
 
     }), t.default = L
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -748,7 +745,7 @@
 
                     if (console.log("Send data: \n"), setTimeout(function() {
 
-                            console.log(i)
+                            // console.log(i)
 
                         }, 500), 0 == navigator.onLine) return a.classList.add("offline"), void setTimeout(function() {
 
@@ -814,7 +811,8 @@
 
     t.default = r
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -933,6 +931,7 @@
                     A.state.selectedItem = e.target;
 
                     var t = e.target.dataset.goTo;
+                    console.log(t);
 
                     A.state.selectedItem.parentNode.classList.add("select"), A.goToSection(t, !1, !0)
 
@@ -1042,7 +1041,8 @@
 
     t.default = A
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -1050,7 +1050,7 @@
 
         value: !0
 
-    }), t.creatorNode = t.logoAndLinesNode = t.workNode = t.solutionsOverviewNode = t.scrollDownNode = t.servicesNode = t.aboutSolutionNode = t.initScreen = void 0;
+    }), t.creatorNode = t.logoAndLinesNode = t.workNode = t.solutionsOverviewNode = t.scrollDownNode = t.servicesNode = t.organizationNode = t.aboutSolutionNode = t.initScreen = void 0;
 
     var n = function(e) {
 
@@ -1062,9 +1062,10 @@
 
     }(o(0));
 
-    t.initScreen = (0, n.default)(".initScreen"), t.aboutSolutionNode = (0, n.default)(".aboutSolution"), t.servicesNode = (0, n.default)(".services"), t.scrollDownNode = (0, n.default)(".scrollDown"), t.solutionsOverviewNode = (0, n.default)(".solutionsOverview"), t.workNode = (0, n.default)(".work"), t.logoAndLinesNode = (0, n.default)(".logoAndLines"), t.creatorNode = (0, n.default)(".creator")
+    t.initScreen = (0, n.default)(".initScreen"), t.aboutSolutionNode = (0, n.default)(".aboutSolution"), t.servicesNode = (0, n.default)(".services"),t.organizationNode=(0, n.default)(".org-structure"), t.scrollDownNode = (0, n.default)(".scrollDown"), t.solutionsOverviewNode = (0, n.default)(".solutionsOverview"), t.workNode = (0, n.default)(".work"), t.logoAndLinesNode = (0, n.default)(".logoAndLines"), t.creatorNode = (0, n.default)(".creator")
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -1235,7 +1236,7 @@
             },
 
             pageInAction: function(e) {
-
+                // 
                 this.setActionValue = !0, c.default.inActionState(), e ? "macos" == (0, f.default)() ? setTimeout(function() {
 
                     m.setActionValue = !1
@@ -1256,7 +1257,8 @@
 
     t.default = m
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -1344,7 +1346,8 @@
 
     t.default = a
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -1456,7 +1459,7 @@
 
                     for (s = 0; s < L.length; s++) L[s].classList.remove("show"), L[s].classList.add("hide"), (0, l.default)(L[s], "work-" + (s + 1) + "-deep", 900 * y - 900 * (s + 1) + 900 + "px");
 
-                    return L[y].classList.remove("hide"), L[y].classList.add("show"), void(0, l.default)(m, "moveShift", 900 * y + "px")
+                    return L[y].classList.remove("hide"), L[y].classList.add("show"), void(0, l.default)(m, "moveShift", 3600 + "px")
 
                 }
 
@@ -1742,7 +1745,8 @@
 
     t.default = k
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -1760,7 +1764,8 @@
 
     }
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -1774,7 +1779,8 @@
 
     }
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -1884,7 +1890,8 @@
 
     t.default = l
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -1902,7 +1909,8 @@
 
     }
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -1916,7 +1924,8 @@
 
     }
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -1980,7 +1989,8 @@
 
     t.default = l
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -2068,7 +2078,8 @@
 
     t.default = d
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -2111,7 +2122,7 @@
         l = {
 
             up: function() {
-
+                console.log("up");
                 var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
 
                 s.logoAndLinesNode.classList.add("hide"), l.setIndicatorState(), e ? setTimeout(function() {
@@ -2127,7 +2138,7 @@
             },
 
             down: function() {
-
+                 console.log("down");
                 var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
 
                 s.aboutSolutionNode.classList.remove("showContent"), l.setIndicatorState(), e ? setTimeout(function() {
@@ -2158,7 +2169,8 @@
 
     t.default = l
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -2201,21 +2213,35 @@
         l = document.querySelector(".work"),
 
         d = {
-
-            up: function() {
-
+            up: function() { //UP funcion is occure when we scroll up of current node
+                console.log("scope and service up");
                 arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
 
-                l.classList.remove("show"), setTimeout(functiaon() {
+                l.classList.remove("show");
 
-                    s.servicesNode.classList.remove("showContent"), d.setIndicatorState(), s.logoAndLinesNode.classList.add("onSolutionsOverview"), s.aboutSolutionNode.classList.remove("hide"), s.solutionsOverviewNode.classList.remove("hide"), s.logoAndLinesNode.classList.remove("onWorks"), s.creatorNode.classList.remove("onWorks"), s.solutionsOverviewNode.classList.add("showDesctiption"), s.solutionsOverviewNode.classList.add("showContent"), s.logoAndLinesNode.classList.add("onSolutionsOverview-logo"), s.logoAndLinesNode.classList.add("hide"), s.creatorNode.classList.add("onSolutionsOverview")
+                setTimeout(function () {
+                    s.servicesNode.classList.remove("showContent");
+                    d.setIndicatorState();
+                    s.logoAndLinesNode.classList.add("onSolutionsOverview");
+                    s.aboutSolutionNode.classList.remove("hide");
+                    s.solutionsOverviewNode.classList.remove("hide");
+                    s.logoAndLinesNode.classList.remove("onWorks");
+                    s.creatorNode.classList.remove("onWorks");
+                    s.solutionsOverviewNode.classList.add("showDesctiption");
+                    s.solutionsOverviewNode.classList.add("showContent");
+                    s.logoAndLinesNode.classList.add("onSolutionsOverview-logo");
+                    s.logoAndLinesNode.classList.add("hide");
+                    s.creatorNode.classList.add("onSolutionsOverview");
+                }, 210);
 
-                }, 210), a.default.setMax()
+                a.default.setMax();
 
             },
 
-            down: function() {
-
+            down: function() { //Down functions is occur when we scroll down of current node
+               // s.servicesNode is return  html object of service class 
+               //d.setIndicatorState is return function    i.default.highlight(e) e=3 in the service class  
+                console.log("scope and service down");
                 var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
 
                 s.servicesNode.classList.remove("showContent"), d.setIndicatorState(), e ? setTimeout(function() {
@@ -2250,7 +2276,8 @@
 
     t.default = d
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -2322,7 +2349,8 @@
 
     t.default = r
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -2350,7 +2378,8 @@
 
     }
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -2478,15 +2507,17 @@
 
             goToContacts: function() {
 
-                document.body.classList.add("showCaseEffect"), setTimeout(function() {
+                document.body.classList.add("showCaseEffect");
+                 setTimeout(function() {
 
                     d.default.goToSection(5)
 
-                }, 320), setTimeout(function() {
+                }, 320); 
+                 setTimeout(function() {
 
                     document.body.classList.remove("showCaseEffect"), L.closeService(!1, L.state.openedService)
 
-                }, 1200)
+                }, 1200);
 
             },
 
@@ -2536,7 +2567,8 @@
 
     t.default = L
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -2609,7 +2641,7 @@
             section: function(e, t) {
 
                 for (var o = 0; o < w.length; o++) w[o].classList.remove("currentSection");
-
+                    // console.log(w.length);
                 if (0 != e && 1 != e && w[e - 2].classList.add("currentSection"), 0 != e && 1 != e || w[0].classList.add("currentSection"), 1 == e) {
 
                     n = new s.default;
@@ -2688,7 +2720,8 @@
 
     t.default = g
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -2702,7 +2735,8 @@
 
     }
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -2722,7 +2756,8 @@
 
     }
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -2788,7 +2823,8 @@
 
     t.default = s
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -2816,9 +2852,9 @@
 
         }(function() {
 
-            var e = ["background: #3452E8", "border: 2px solid white", "margin: auto auto", "color: white", "display: block", "line-height: 1.5", "padding: 20px 30px", "text-align: center", "font-weight: bold"].join(";");
+            // var e = ["background: #3452E8", "border: 2px solid white", "margin: auto auto", "color: white", "display: block", "line-height: 1.5", "padding: 20px 30px", "text-align: center", "font-weight: bold"].join(";");
 
-            console.log("%c Website created by Jazz Pixels", e), console.log("https://jazzpixels.com")
+            // console.log("%c Website created by Jazz Pixels", e), console.log("https://jazzpixels.com")
 
         })
 
@@ -2826,7 +2862,8 @@
 
     t.default = n
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -2866,7 +2903,8 @@
 
     t.default = l
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -2906,7 +2944,8 @@
 
     t.default = s
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -2970,7 +3009,8 @@
 
     t.default = d
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -3022,7 +3062,8 @@
 
         i = n(o(35))
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -3036,7 +3077,8 @@
 
     }
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -3068,7 +3110,8 @@
 
     e.exports = n
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -3132,7 +3175,8 @@
 
     t.default = r
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -3182,11 +3226,10 @@
 
     t.default = l
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
-
-
 
     function n(e) {
 
@@ -3197,8 +3240,6 @@
         }
 
     }
-
-
 
     function s() {
 
@@ -3284,7 +3325,8 @@
 
     for (var O = 0; O < document.querySelectorAll("button, input, a, textarea").length; O++) document.querySelectorAll("button, input, a, textarea")[O].setAttribute("tabindex", "-1")
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -3306,7 +3348,8 @@
 
     t.default = n
 
-}, function(e, t, o) {
+}, 
+function(e, t, o) {
 
     "use strict";
 
@@ -3328,4 +3371,110 @@
 
     t.default = n
 
+}, 
+function(e, t, o) { 
+
+   "use strict";
+
+
+
+    function n(e) {
+
+        return e && e.__esModule ? e : {
+
+            default: e
+
+        }
+
+    }
+
+    Object.defineProperty(t, "__esModule", {
+
+        value: !0
+
+    });
+
+    var s = function(e) {
+
+            if (e && e.__esModule) return e;
+
+            var t = {};
+
+            if (null != e)
+
+                for (var o in e) Object.prototype.hasOwnProperty.call(e, o) && (t[o] = e[o]);
+
+            return t.default = e, t
+
+        }(o(7)),
+
+        i = (n(o(3)), n(o(1)), n(o(4)), n(o(2))),
+
+        a = n(o(13)),
+
+        l = document.querySelector(".work"),
+
+        d = {
+            up: function() { //UP funcion is occure when we scroll up of current node
+                console.log("scope and service up");
+                arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
+
+                l.classList.remove("show");
+
+                setTimeout(function () {
+                    s.servicesNode.classList.remove("showContent");
+                    d.setIndicatorState();
+                    s.logoAndLinesNode.classList.add("onSolutionsOverview");
+                    s.aboutSolutionNode.classList.remove("hide");
+                    s.solutionsOverviewNode.classList.remove("hide");
+                    s.logoAndLinesNode.classList.remove("onWorks");
+                    s.creatorNode.classList.remove("onWorks");
+                    s.solutionsOverviewNode.classList.add("showDesctiption");
+                    s.solutionsOverviewNode.classList.add("showContent");
+                    s.logoAndLinesNode.classList.add("onSolutionsOverview-logo");
+                    s.logoAndLinesNode.classList.add("hide");
+                    s.creatorNode.classList.add("onSolutionsOverview");
+                }, 210);
+
+                a.default.setMax();
+
+            },
+
+            down: function() { //Down functions is occur when we scroll down of current node
+               // s.servicesNode is return  html object of service class 
+               //d.setIndicatorState is return function    i.default.highlight(e) e=3 in the service class  
+                console.log("scope and service down");
+                var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
+
+                s.servicesNode.classList.remove("showContent"), d.setIndicatorState(), e ? setTimeout(function() {
+
+                    s.logoAndLinesNode.classList.add("onSolutionsOverview"), s.aboutSolutionNode.classList.remove("hide"), s.solutionsOverviewNode.classList.remove("hide"), s.logoAndLinesNode.classList.remove("onWorks"), s.creatorNode.classList.remove("onWorks")
+
+                }, 510) : (s.logoAndLinesNode.classList.add("onSolutionsOverview"), s.aboutSolutionNode.classList.remove("hide"), s.solutionsOverviewNode.classList.remove("hide"), s.logoAndLinesNode.classList.remove("onWorks"), s.creatorNode.classList.remove("onWorks")), e ? setTimeout(function() {
+
+                    s.solutionsOverviewNode.classList.add("showDesctiption")
+
+                }, 1010) : s.solutionsOverviewNode.classList.add("showDesctiption"), e ? setTimeout(function() {
+
+                    s.solutionsOverviewNode.classList.add("showContent"), s.logoAndLinesNode.classList.add("onSolutionsOverview-logo"), s.logoAndLinesNode.classList.add("hide"), s.creatorNode.classList.add("onSolutionsOverview")
+
+                }, 1020) : (s.solutionsOverviewNode.classList.add("showContent"), s.logoAndLinesNode.classList.add("onSolutionsOverview-logo"), s.logoAndLinesNode.classList.add("hide"), s.creatorNode.classList.add("onSolutionsOverview")), a.default.setMin()
+
+            },
+
+            clear: function() {
+
+                s.logoAndLinesNode.classList.remove("onSolutionsOverview"), s.solutionsOverviewNode.classList.remove("showDesctiption"), s.solutionsOverviewNode.classList.remove("showContent"), s.logoAndLinesNode.classList.remove("onSolutionsOverview-logo"), s.logoAndLinesNode.classList.remove("hide"), s.creatorNode.classList.remove("onSolutionsOverview"), a.default.setMin()
+
+            },
+
+            setIndicatorState: function() {
+
+                i.default.highlight(3)
+
+            }
+
+        };
+
+    t.default = d   
 }]);
