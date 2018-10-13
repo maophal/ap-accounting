@@ -12,8 +12,9 @@
 // PAGE (5): SOLUTIONS OVERVIEW
 // 
 // index of function  
-// 1   return all Element in html index page  
-//2
+// 0   return all Element in html index page  
+//1   do go to contact page 
+//2   click go to any page 
 //3
 //4
 //5

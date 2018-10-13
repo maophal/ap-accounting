@@ -1,5 +1,5 @@
 ! function(e) {
-
+console.log(e);
     function t(n) {
 
         if (o[n]) return o[n].exports;
@@ -56,7 +56,7 @@
 
 }
 ([function(e, t, o) {
-// return all Element  in index page 
+// return all Element  in index page * function number 0
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
@@ -72,7 +72,7 @@
     }
 }, 
 function(e, t, o) {
- // do go to contact page 
+// do go to contact page  * function number 1
     "use strict";
 
     function n(e) {
@@ -116,7 +116,7 @@ function(e, t, o) {
                 // funtion click go to contact section 
                 document.body.classList.add("showCaseEffect"), setTimeout(function() {
 
-                    i.default.goToSection(5)
+                    i.default.goToSection(6);
 
                 }, 320);
                 setTimeout(function() {
@@ -127,17 +127,17 @@ function(e, t, o) {
 
             },
 
-            // disableButton: function() {
+            disableButton: function() {
 
-            //     a.classList.add("disable")
+                a.classList.add("disable")
 
-            // },
+            },
 
-            // enableButton: function() {
+            enableButton: function() {
 
-            //     a.classList.remove("disable")
+                a.classList.remove("disable")
 
-            // },
+            },
 
             init: function() {
 
@@ -150,7 +150,7 @@ function(e, t, o) {
     t.default = l;
 }, 
 function(e, t, o) {
-
+///click to page any page form menu   * function number 2
     "use strict";
 
     function n(e) {
@@ -190,6 +190,7 @@ function(e, t, o) {
         h = n(o(10)),
 
         m = n(o(5)),
+        or=n(o(39)),
 
         L = document.querySelector(".indicator"),
 
@@ -200,24 +201,26 @@ function(e, t, o) {
         p = {
 
             highlight: function(e) {
-                //highlight to point 
+               
+                //highlight to point , index start from 0 
                 for (var t = 0; t < w.length; t++) w[t].classList.remove("current");
 
-                w[e].classList.add("current")
+                w[e].classList.add("current");
             },
 
             goToSection: function(e) {
-                // to click go to section that you want  
+                // to click go to section that you want   from point 
                 e.preventDefault();
 
-                var t = e.target.dataset.goto; // return  index of section that click 
+                var t = e.target.dataset.goto; // return  index of section that click ,index start from 0
+                console.log(t +" "+ "goto section");
                     o = v.default.state.currentSection;
-
+                    console.log(o + " " + "gotosectoin  o");
                     n = parseInt(t, 10) + 1;
 
                 if (o - t != 1 || o == document.querySelectorAll(".section").length - 1) {
 
-                    if (t != o && o - t != 2 || 5 == o && 4 == n) {
+                    if (t != o && o - t != 2 || 6 == o && 6 == n) {
 
                         if (document.body.classList.add("showCaseEffect"), 0 == t) {
 
@@ -227,11 +230,11 @@ function(e, t, o) {
 
                                 var e = new i.default;
 
-                                d.default.clear(), r.default.clear(), u.default.clear(), c.default.clear(), l.default.set(), h.default.resetState(), v.default.state.currentSection = 1, e.animateScroll(document.querySelector(".initScreen"))
+                                d.default.clear(), r.default.clear(), u.default.clear(), c.default.clear(), l.default.set(),or.default.clear(), h.default.resetState(), v.default.state.currentSection = 1, e.animateScroll(document.querySelector(".initScreen"))
 
                             }, 300), setTimeout(function() {
 
-                                document.body.classList.remove("showCaseEffect")
+                                document.body.classList.remove("showCaseEffect");
 
                             }, 1500), void v.default.pageInAction()
 
@@ -243,7 +246,7 @@ function(e, t, o) {
 
                         }, 300), setTimeout(function() {
 
-                            document.body.classList.remove("showCaseEffect")
+                            document.body.classList.remove("showCaseEffect");
 
                         }, 1500), void v.default.pageInAction()
 
@@ -274,7 +277,7 @@ function(e, t, o) {
             setListeners: function() {
 
                 for (var e = 0; e < w.length; e++) w[e].addEventListener("click", function(e) {
-                    console.log(e);
+
                     p.goToSection(e)
 
                 })
@@ -316,7 +319,7 @@ function(e, t, o) {
     t.default = p
 }, 
 function(e, t, o) {
-
+// don't kown yet  * function number 3
     "use strict";
 
     (function(o) {
@@ -541,7 +544,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// do on line animate in page * function nunber 4
     "use strict";
 
 
@@ -672,7 +675,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// * function number 5 do on cotact page
     "use strict";
 
 
@@ -697,11 +700,11 @@ function(e, t, o) {
 
         i = n(o(12)),
 
-        a = (0, s.default)(".contacts"),
+        a = (0, s.default)(".contacts"), // $(".contacts ")
 
         l = (0, s.default)("#submit"),
 
-        d = document.querySelectorAll(".checkValidation"),
+        d = document.querySelectorAll(".checkValidation"), // 
 
         r = {
 
@@ -711,7 +714,7 @@ function(e, t, o) {
 
             },
 
-            show: function() {
+            show: function() { // show contacts page ,if this function work oncontacts is true
 
                 a.classList.add("setDeep"), a.classList.add("show"), a.classList.add("animate"), setTimeout(function() {
 
@@ -729,18 +732,18 @@ function(e, t, o) {
 
             scale: function() {
 
-                a.classList.add("scale")
+                a.classList.add("scale");
 
             },
 
-            removeScale: function() {
+            removeScale: function() { // to do remove class scale 
 
-                a.classList.remove("scale")
+                a.classList.remove("scale");
 
             },
 
-            sendData: function(e) {
-
+            sendData: function(e) {   
+                // send and validate form 
                 if (r.checkValidation()) {
 
                     if (console.log("Send data: \n"), setTimeout(function() {
@@ -813,7 +816,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// * function number 6  do on menu all action 
     "use strict";
 
 
@@ -896,7 +899,7 @@ function(e, t, o) {
 
             },
 
-            toggle: function() {
+            toggle: function() { // do on menu toggle 
 
                 arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
 
@@ -939,7 +942,7 @@ function(e, t, o) {
 
             },
 
-            goToSection: function(e) {
+            goToSection: function(e) {  // do go to section when click on menu button 
 
                 var t = arguments.length > 1 && void 0 !== arguments[1] && arguments[1],
 
@@ -975,7 +978,7 @@ function(e, t, o) {
 
                 }
 
-                if (2 == e) {
+                if (2 == e) {  // index start from 1
 
                     s.default.state.currentSection = 3;
 
@@ -1001,13 +1004,13 @@ function(e, t, o) {
 
                     t = new a.default;
 
-                    i.logoAndLinesNode.classList.add("onAboutSolution"), i.scrollDownNode.classList.add("show"), h.default.down(), m.default.down(), L.default.down(), w.default.set(), l.default.state.currentFace = 3, l.default.state.currentAngle = 270, l.default.setAngle(), l.default.setMax(), t.animateScroll(i.workNode)
+                    i.logoAndLinesNode.classList.add("hide"), i.scrollDownNode.classList.add("show"), h.default.down(), m.default.down(), L.default.down(), w.default.set(), l.default.state.currentFace = 3, l.default.state.currentAngle = 270, l.default.setAngle(), l.default.setMax(), t.animateScroll(i.workNode)
 
                 }
 
                 if (5 == e) {
 
-                    s.default.state.currentSection = 5;
+                    s.default.state.currentSection = 6;
 
                     t = new a.default;
 
@@ -1017,7 +1020,7 @@ function(e, t, o) {
 
                  if (6 == e) {
 
-                    s.default.state.currentSection = 6;
+                    s.default.state.currentSection = 7;
 
                     t = new a.default;
 
@@ -1043,14 +1046,15 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 7 create node Element 
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
 
         value: !0
 
-    }), t.creatorNode = t.logoAndLinesNode = t.workNode = t.solutionsOverviewNode = t.scrollDownNode = t.servicesNode = t.organizationNode = t.aboutSolutionNode = t.initScreen = void 0;
+    });
+    t.creatorNode = t.logoAndLinesNode = t.workNode = t.solutionsOverviewNode = t.scrollDownNode = t.servicesNode = t.organizationNode =t.workforceNode= t.aboutSolutionNode = t.initScreen = void 0;
 
     var n = function(e) {
 
@@ -1062,11 +1066,11 @@ function(e, t, o) {
 
     }(o(0));
 
-    t.initScreen = (0, n.default)(".initScreen"), t.aboutSolutionNode = (0, n.default)(".aboutSolution"), t.servicesNode = (0, n.default)(".services"),t.organizationNode=(0, n.default)(".org-structure"), t.scrollDownNode = (0, n.default)(".scrollDown"), t.solutionsOverviewNode = (0, n.default)(".solutionsOverview"), t.workNode = (0, n.default)(".work"), t.logoAndLinesNode = (0, n.default)(".logoAndLines"), t.creatorNode = (0, n.default)(".creator")
+    t.initScreen = (0, n.default)(".initScreen"), t.aboutSolutionNode = (0, n.default)(".aboutSolution"), t.servicesNode = (0, n.default)(".services"),t.organizationNode=(0, n.default)(".org-structure"),t.workforceNode=(0, n.default)(".work-force"), t.scrollDownNode = (0, n.default)(".scrollDown"), t.solutionsOverviewNode = (0, n.default)(".solutionsOverview"), t.workNode = (0, n.default)(".work"), t.logoAndLinesNode = (0, n.default)(".logoAndLines"), t.creatorNode = (0, n.default)(".creator")
 
 }, 
 function(e, t, o) {
-
+// * function number 8  ,don't know yet
     "use strict";
 
 
@@ -1129,35 +1133,36 @@ function(e, t, o) {
 
             maxSlidesCount: function() {
 
-                return document.querySelectorAll("body > .section").length
+                return document.querySelectorAll("body > .section").length;  // count all element immediate  chidren of body
 
             },
 
             get currentSectionValue() {
 
-                return this.state.currentSection
+                return this.state.currentSection; // return current section value ,* it is object getter accessors
 
             },
 
-            set setSectionValue(e) {
+            set setSectionValue(e) { // set value to current section , * it is object setter accessors 
 
-                this.state.currentSection = e
+                this.state.currentSection = e  ;
 
             },
 
             get actionValue() {
 
-                return this.state.inAction
+                return this.state.inAction;
+
 
             },
 
-            set setActionValue(e) {
+            set setActionValue(e) { // return true ,fasle
 
                 this.state.inAction = e
 
             },
 
-            setListener: function() {
+            setListener: function() { // event scroll and keyup on  home page 
 
                 window.addEventListener("wheel", this.forward, {
 
@@ -1166,6 +1171,7 @@ function(e, t, o) {
                 }), window.addEventListener("keyup", this.forward), window.addEventListener("resize", function() {
 
                     var e = document.querySelectorAll(".section")[m.state.currentSection - 1].offsetTop;
+                    console.log(e);
 
                     window.scrollTo(0, e)
 
@@ -1174,24 +1180,24 @@ function(e, t, o) {
             },
 
             forward: function(e) {
-
+               
                 var t;
-
+console.log(l.default.currentFace + "currentFace");
                 if (!(m.actionValue || a.default.isAnyOpened || r.default.state.opened)) {
 
-                    if (4 == m.currentSectionValue && !(0 == l.default.currentFace && "up" == (0, s.default)(e) || 3 == l.default.currentFace && "down" == (0, s.default)(e))) return m.pageInAction(!0), void l.default.rotateCube(e);
+                    if (6 == m.currentSectionValue && !(0 == l.default.currentFace && "up" == (0, s.default)(e) || 3 == l.default.currentFace && "down" == (0, s.default)(e))) return m.pageInAction(!0), void l.default.rotateCube(e);
 
-                    if (5 == m.currentSectionValue) {
+                    if (7 == m.currentSectionValue) {
 
                         if (d.default.state.currentWork == v - 2 && "down" == (0, s.default)(e)) {
 
                             if ("show" == d.default.state.details) return;
 
-                            d.default.hideWork(), u.default.state.onContacts = !0, c.default.highlight(5);
+                            d.default.hideWork(), u.default.state.onContacts = !0, c.default.highlight(6);
 
                             for (o = 0; o < h.length; o++) h[o].classList.remove("currentSection");
 
-                            h[4].classList.add("currentSection")
+                            h[5].classList.add("currentSection")
 
                         }
 
@@ -1199,11 +1205,11 @@ function(e, t, o) {
 
                         if (d.default.state.currentWork == v - 1 && "up" == (0, s.default)(e)) {
 
-                            d.default.showWork(), c.default.highlight(4), u.default.state.onContacts = !1;
+                            d.default.showWork(), c.default.highlight(5), u.default.state.onContacts = !1;
 
                             for (var o = 0; o < h.length; o++) h[o].classList.remove("currentSection");
 
-                            h[3].classList.add("currentSection")
+                            h[4].classList.add("currentSection")
 
                         }
 
@@ -1259,7 +1265,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+//function number 9 do to click button menu
     "use strict";
 
 
@@ -1334,7 +1340,7 @@ function(e, t, o) {
 
                     a.state.disable || (s.default.toggle(), a.state.disable = !0, setTimeout(function() {
 
-                        a.state.disable = !1
+                        a.state.disable = !1;
 
                     }, 1300))
 
@@ -1348,7 +1354,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 10 do on work page 
     "use strict";
 
 
@@ -1403,7 +1409,7 @@ function(e, t, o) {
 
         S = (document.querySelectorAll(".work-1 .photos"), (0, i.default)(".contacts")),
 
-        b = !1,
+        b =  false,
 
         y = L.length - 1,
 
@@ -1520,201 +1526,6 @@ function(e, t, o) {
                 })
 
             },
-
-            showDetails: function(e) {
-
-                k.state.details = "show", u.default.toggleVisible("hide"), c.default.hide(), k.getDetails(e, L), k.details(_, T, O), k.setVideoListeners(), w.classList.add("showDetails"), f.classList.add("detailsState"), v.classList.add("onDetails"), h.classList.add("onDetails"), d.default.hideButton()
-
-            },
-
-            hideDetails: function() {
-
-                k.state.details = "hide", u.default.toggleVisible("show"), c.default.show(), w.classList.remove("showDetails"), f.classList.remove("detailsState"), v.classList.remove("onDetails"), h.classList.remove("onDetails"), d.default.showButton()
-
-            },
-
-            getDetails: function(e, t) {
-
-                var o = e.target;
-
-                A = null, O = null, N = null, _ = [], M = null, T = [];
-
-                for (var n = 0; n < o.children.length; n++)
-
-                    if ("details" == o.children[n].className) {
-
-                        A = o.children[n];
-
-                        break
-
-                    }
-
-                for (var s = 0; s < A.children.length; s++)
-
-                    if ("description" == A.children[s].className) {
-
-                        O = A.children[s].innerHTML;
-
-                        break
-
-                    }
-
-                for (var i = 0; i < A.children.length; i++)
-
-                    if ("photos" == A.children[i].className) {
-
-                        N = A.children[i];
-
-                        break
-
-                    }
-
-                for (var a = 0; a < N.children.length; a++) _.push(N.children[a].dataset.src);
-
-                for (var l = 0; l < A.children.length; l++)
-
-                    if ("videos" == A.children[l].className) {
-
-                        M = A.children[l];
-
-                        break
-
-                    }
-
-                for (var d = 0; d < M.children.length; d++) T.push(M.children[d].dataset.src)
-
-            },
-
-            details: function(e, t, o) {
-
-                var n = k.buildGallery(e, t);
-
-                g.innerHTML = '\n                                    <div class=" galleryWrapper"> ' + n + ' </div>\n                                    <div class="description"> ' + o + " </div>\n                                    ";
-
-                new Swiper(".swiper-container", {
-
-                    pagination: {
-
-                        el: ".swiper-pagination",
-
-                        clickable: !0,
-
-                        speed: 1500,
-
-                        paginationType: "custom",
-
-                        renderBullet: function(e, t) {
-
-                            return '<span class="' + t + '">' + (e + 1) + "</span>"
-
-                        }
-
-                    },
-
-                    on: {
-
-                        slideChange: function() {
-
-                            k.pauseAllVideos()
-
-                        }
-
-                    },
-
-                    navigation: {
-
-                        nextEl: ".swiper-button-next",
-
-                        prevEl: ".swiper-button-prev"
-
-                    },
-
-                    effect: "cube",
-
-                    grabCursor: !0,
-
-                    cubeEffect: {
-
-                        shadow: !1
-
-                    },
-
-                    loop: !0
-
-                }), document.querySelectorAll(".swiper-slide")
-
-            },
-
-            buildGallery: function(e, t) {
-
-                return '\n                          <div class="swiper-container">\n                            <div class="swiper-wrapper">\n                                ' + k.galleryTemplate(e) + "\n                                " + k.videosTemplate(t) + '\n                            </div>\n\n                            <div class="controls">\n                              <div class="swiper-button-prev">\n                                <svg width="16px" height="23px" viewBox="0 0 16 23">\n                                  <path stroke-width="2px" \n                                        stroke-linecap="butt" \n                                        stroke-linejoin="miter" \n                                        fill="none"\n                                        d="M2.427,1.997 L12.005,11.000 L2.427,20.003 "/>\n                                </svg>\n                              </div>\n                              <div class="swiper-pagination"></div>\n                              <div class="swiper-button-next">\n                                <svg width="16px" height="23px" viewBox="0 0 16 23">\n                                  <path stroke-width="2px" \n                                        stroke-linecap="butt" \n                                        stroke-linejoin="miter" \n                                        fill="none"\n                                        d="M2.427,1.997 L12.005,11.000 L2.427,20.003 "/>\n                                </svg>\n                              </div>\n                            </div>\n                          </div>\n                        '
-
-            },
-
-            galleryTemplate: function(e) {
-
-                for (var t = "", o = 0; o < e.length; o++) {
-
-                    t += '\n                <div class="swiper-slide"> \n                  <img src="' + e[o] + '"> \n                </div>\n                '
-
-                }
-
-                return t
-
-            },
-
-            videosTemplate: function(e) {
-
-                for (var t = "", o = 0; o < e.length; o++) {
-
-                    t += '\n                <div class="swiper-slide">\n                  <div class="videoWrapper">\n                    <div class="playpause">\n                      <button class="switch"></button>\n                    </div>\n\n                    <div class="videoWrapper">\n                      <video class="video">\n                        <source src="videos/' + e[o] + '.mp4" type="video/mp4">\n                      </video>\n                    </div>\n                  </div>\n                </div>\n                '
-
-                }
-
-                return t
-
-            },
-
-            setVideoListeners: function() {
-
-                for (var e = document.querySelectorAll(".playpause"), t = 0; t < e.length; t++) e[t].addEventListener("click", function(e) {
-
-                    b || k.playVideos(e), b && k.pauseVideos(e), b = !b
-
-                })
-
-            },
-
-            playVideos: function(e) {
-
-                var t = e.currentTarget,
-
-                    o = t.nextElementSibling.children[0];
-
-                t.classList.add("playState"), o.play()
-
-            },
-
-            pauseVideos: function(e) {
-
-                var t = e.currentTarget,
-
-                    o = t.nextElementSibling.children[0];
-
-                t.classList.remove("playState"), o.pause()
-
-            },
-
-            pauseAllVideos: function() {
-
-                for (var e = document.querySelectorAll("video"), t = 0; t < e.length; t++) e[t].pause();
-
-                for (var o = document.querySelectorAll(".playpause"), t = 0; t < o.length; t++) o[t].classList.remove("playState");
-
-                b = !1
-
-            },
-
             hideWork: function() {
 
                 r.default.scale(), r.default.state.onContacts = !1, f.classList.add("hide"), setTimeout(function() {
@@ -1748,6 +1559,7 @@ function(e, t, o) {
 }, 
 function(e, t, o) {
 
+// function number 11 return function showafterloaded
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
@@ -1761,27 +1573,27 @@ function(e, t, o) {
             e()
 
         })
-
     }
 
 }, 
 function(e, t, o) {
-
+// function number 12 , don't know yet
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
 
         value: !0
 
-    }), t.default = function(e, t, o) {
+    });
+    t.default = function(e, t, o) {
 
-        return e.style.setProperty("--" + t, o)
+        var x =e.style.setProperty("--" + t, o);
 
     }
 
 }, 
 function(e, t, o) {
-
+// function number 13 , do on service page 
     "use strict";
 
 
@@ -1821,14 +1633,14 @@ function(e, t, o) {
             },
 
             rotateCube: function(e) {
-
+                console.log(e);
                 "up" != (0, s.default)(e) && "down" != (0, s.default)(e) || ("up" == (0, s.default)(e) && 0 != l.currentFace && function() {
 
                     var e = --l.currentFace;
 
                     l.state.currentAngle = l.state.currentAngle - l.angleShift, l.currentFace = e
 
-                }(), "down" == (0, s.default)(e) && 3 != l.currentFace && function() {
+                }(), "down" == (0, s.default)(e) && 5 != l.currentFace && function() {
 
                     var e = ++l.currentFace;
 
@@ -1862,7 +1674,7 @@ function(e, t, o) {
 
                 for (var e = 0; e < a.length; e++) a[e].classList.remove("selectFace");
 
-                a[3].classList.add("selectFace")
+                a[5].classList.add("selectFace")
 
             },
 
@@ -1892,7 +1704,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 14 , return show afterload function 
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
@@ -1911,22 +1723,23 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 15 ,do at line 
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
 
         value: !0
 
-    }), t.default = function(e, t) {
+    });
+    t.default = function(e, t) { //rhis function return value measur as px , e return logoandline Element ,t return clase style line
 
-        return getComputedStyle(e).getPropertyValue("--" + t).trim()
+        return getComputedStyle(e).getPropertyValue("--" + t).trim();
 
     }
 
 }, 
 function(e, t, o) {
-
+// function number 16 , do on aboutsolution page
     "use strict";
 
 
@@ -1973,15 +1786,15 @@ function(e, t, o) {
 
                 s.aboutSolutionNode.classList.remove("showContent"), l.setIndicatorState(), scroll ? setTimeout(function() {
 
-                    s.logoAndLinesNode.classList.remove("onAboutSolution"), i.default.toggleVisible("hide")
+                    s.logoAndLinesNode.classList.remove("onAboutSolution"), i.default.toggleVisible("hide");
 
-                }, 300) : (s.logoAndLinesNode.classList.remove("onAboutSolution"), i.default.toggleVisible("hide"))
+                }, 300) : (s.logoAndLinesNode.classList.remove("onAboutSolution"), i.default.toggleVisible("hide"));
 
             },
 
             setIndicatorState: function() {
 
-                a.default.highlight(0)
+                a.default.highlight(0);
 
             }
 
@@ -1991,7 +1804,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 17 , do on
     "use strict";
 
 
@@ -2070,7 +1883,7 @@ function(e, t, o) {
 
             setIndicatorState: function() {
 
-                l.default.highlight(1)
+                l.default.highlight(1);
 
             }
 
@@ -2080,7 +1893,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 18 
     "use strict";
 
 
@@ -2171,7 +1984,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 19
     "use strict";
 
 
@@ -2268,7 +2081,7 @@ function(e, t, o) {
 
             setIndicatorState: function() {
 
-                i.default.highlight(3)
+                i.default.highlight(4)
 
             }
 
@@ -2278,7 +2091,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 20 ,
     "use strict";
 
 
@@ -2351,7 +2164,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 21
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
@@ -2380,7 +2193,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 22
     "use strict";
 
 
@@ -2510,7 +2323,7 @@ function(e, t, o) {
                 document.body.classList.add("showCaseEffect");
                  setTimeout(function() {
 
-                    d.default.goToSection(5)
+                    d.default.goToSection(6)
 
                 }, 320); 
                  setTimeout(function() {
@@ -2559,7 +2372,7 @@ function(e, t, o) {
 
                 });
 
-                for (var e = 0; e < f.length; e++) m[e].addEventListener("click", L.goToContacts)
+                // for (var e = 0; e < f.length; e++) m[e].addEventListener("click", L.goToContacts)
 
             }
 
@@ -2569,7 +2382,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 23
     "use strict";
 
 
@@ -2602,7 +2415,11 @@ function(e, t, o) {
 
         r = n(o(19)),
 
-        u = n(o(20)),
+        u = n(o(20)), 
+
+        or = n(o(39)),
+
+        fo = n(o(40)),
 
         c = (0, i.default)(".initScreen"),
 
@@ -2613,6 +2430,10 @@ function(e, t, o) {
         h = (0, i.default)(".scrollDown"),
 
         m = (0, i.default)(".solutionsOverview"),
+
+        org = (0, i.default)(".org-structure"),
+
+        force=(0, i.default)(".work-force"),
 
         L = ((0, i.default)(".work"), (0, i.default)(".logoAndLines")),
 
@@ -2639,7 +2460,7 @@ function(e, t, o) {
             },
 
             section: function(e, t) {
-
+                console.log(e + " " +  " section " );
                 for (var o = 0; o < w.length; o++) w[o].classList.remove("currentSection");
                     // console.log(w.length);
                 if (0 != e && 1 != e && w[e - 2].classList.add("currentSection"), 0 != e && 1 != e || w[0].classList.add("currentSection"), 1 == e) {
@@ -2648,7 +2469,7 @@ function(e, t, o) {
 
                     a.default.set(!0), setTimeout(function() {
 
-                        n.animateScroll(c)
+                        n.animateScroll(c);
 
                     }, 510)
 
@@ -2685,8 +2506,45 @@ function(e, t, o) {
                     }, 1020))
 
                 }
-
                 if (4 == e) {
+
+                    n = new s.default;
+
+                    "down" == t && (or.default.down(!0), setTimeout(function() {
+
+                        n.animateScroll(org)
+
+                    }, 510)), "up" == t && (or.default.up(!0), n.init({
+
+                        speed: 1
+
+                    }), setTimeout(function() {
+
+                        n.animateScroll(org);
+
+                    }, 1020))
+
+                }
+                 if (5 == e) {
+
+                    n = new s.default;
+
+                    "down" == t && (fo.default.down(!0), setTimeout(function() {
+
+                        n.animateScroll(force)
+
+                    }, 510)), "up" == t && (fo.default.up(!0), n.init({
+
+                        speed: 1
+
+                    }), setTimeout(function() {
+
+                        n.animateScroll(force);
+
+                    }, 1020))
+
+                }
+                if (6 == e) {
 
                     n = new s.default;
 
@@ -2706,7 +2564,7 @@ function(e, t, o) {
 
                 }
 
-                if (5 == e) {
+                if (7 == e) {
 
                     var n = new s.default;
 
@@ -2722,7 +2580,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 24
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
@@ -2737,7 +2595,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 25
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
@@ -2758,7 +2616,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 26
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
@@ -2825,7 +2683,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+//function number 27
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
@@ -2864,7 +2722,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+//function number 28
     "use strict";
 
 
@@ -2905,7 +2763,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 29
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
@@ -2946,7 +2804,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 30 
     "use strict";
 
 
@@ -3011,7 +2869,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// funntion number 31
     "use strict";
 
 
@@ -3064,7 +2922,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 32
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
@@ -3079,7 +2937,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 33
     "use strict";
 
     var n, s = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
@@ -3112,7 +2970,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 34
     "use strict";
 
 
@@ -3177,7 +3035,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+//function number 35
     "use strict";
 
 
@@ -3228,7 +3086,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number  36
     "use strict";
 
     function n(e) {
@@ -3327,7 +3185,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number 37 
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
@@ -3350,7 +3208,7 @@ function(e, t, o) {
 
 }, 
 function(e, t, o) {
-
+// function number  38
     "use strict";
 
     Object.defineProperty(t, "__esModule", {
@@ -3371,10 +3229,9 @@ function(e, t, o) {
 
     t.default = n
 
-}, 
-function(e, t, o) { 
-
-   "use strict";
+},function(e, t, o) {
+// function number 39 
+    "use strict";
 
 
 
@@ -3408,73 +3265,148 @@ function(e, t, o) {
 
         }(o(7)),
 
-        i = (n(o(3)), n(o(1)), n(o(4)), n(o(2))),
+        i = (n(o(3)), n(o(1)), n(o(4))),
 
-        a = n(o(13)),
+        a = n(o(2)),
 
-        l = document.querySelector(".work"),
+        l = {
 
-        d = {
-            up: function() { //UP funcion is occure when we scroll up of current node
-                console.log("scope and service up");
-                arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
+            up: function() {
+                console.log("up 4");
+                var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
 
-                l.classList.remove("show");
+                s.logoAndLinesNode.classList.add("hide"), l.setIndicatorState(), e ? setTimeout(function() {
 
-                setTimeout(function () {
-                    s.servicesNode.classList.remove("showContent");
-                    d.setIndicatorState();
-                    s.logoAndLinesNode.classList.add("onSolutionsOverview");
-                    s.aboutSolutionNode.classList.remove("hide");
-                    s.solutionsOverviewNode.classList.remove("hide");
-                    s.logoAndLinesNode.classList.remove("onWorks");
-                    s.creatorNode.classList.remove("onWorks");
-                    s.solutionsOverviewNode.classList.add("showDesctiption");
-                    s.solutionsOverviewNode.classList.add("showContent");
-                    s.logoAndLinesNode.classList.add("onSolutionsOverview-logo");
-                    s.logoAndLinesNode.classList.add("hide");
-                    s.creatorNode.classList.add("onSolutionsOverview");
-                }, 210);
+                    s.servicesNode.classList.add("showContent"), s.aboutSolutionNode.classList.remove("showContent")
 
-                a.default.setMax();
+                }, 1020) : (s.logoAndLinesNode.classList.add("hide"),s.servicesNode.classList.add("showContent"), s.aboutSolutionNode.classList.remove("showContent")), e ? setTimeout(function() {
+
+                    s.logoAndLinesNode.classList.add("hide"), s.scrollDownNode.classList.add("hide"), s.logoAndLinesNode.classList.remove("onSolutionsOverview"), s.solutionsOverviewNode.classList.remove("onServices"), s.logoAndLinesNode.classList.remove("onSolutionsOverview"), s.creatorNode.classList.remove("onSolutionsOverview"), s.logoAndLinesNode.classList.remove("onSolutionsOverview-logo"), s.solutionsOverviewNode.classList.remove("showContent"),s.solutionsOverviewNode.classList.remove("showDesctiption"), s.solutionsOverviewNode.classList.remove("showContent")
+
+                }, 510) : (s.logoAndLinesNode.classList.add("hide"), s.scrollDownNode.classList.add("hide"), s.logoAndLinesNode.classList.remove("onSolutionsOverview"), s.solutionsOverviewNode.classList.remove("onServices"), s.logoAndLinesNode.classList.remove("onSolutionsOverview"), s.creatorNode.classList.remove("onSolutionsOverview"), s.logoAndLinesNode.classList.remove("onSolutionsOverview-logo"), s.solutionsOverviewNode.classList.remove("showContent"), s.solutionsOverviewNode.classList.remove("showDesctiption"), s.solutionsOverviewNode.classList.remove("showContent"))
 
             },
 
-            down: function() { //Down functions is occur when we scroll down of current node
-               // s.servicesNode is return  html object of service class 
-               //d.setIndicatorState is return function    i.default.highlight(e) e=3 in the service class  
-                console.log("scope and service down");
+            down: function() {
+                 console.log("down 4");
                 var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
 
-                s.servicesNode.classList.remove("showContent"), d.setIndicatorState(), e ? setTimeout(function() {
+                s.logoAndLinesNode.classList.add("hide"),s.aboutSolutionNode.classList.remove("showContent"), l.setIndicatorState(), e ? setTimeout(function() {
 
-                    s.logoAndLinesNode.classList.add("onSolutionsOverview"), s.aboutSolutionNode.classList.remove("hide"), s.solutionsOverviewNode.classList.remove("hide"), s.logoAndLinesNode.classList.remove("onWorks"), s.creatorNode.classList.remove("onWorks")
+                    s.logoAndLinesNode.classList.add("hide"),s.servicesNode.classList.add("showContent"), s.aboutSolutionNode.classList.remove("showContent")
 
-                }, 510) : (s.logoAndLinesNode.classList.add("onSolutionsOverview"), s.aboutSolutionNode.classList.remove("hide"), s.solutionsOverviewNode.classList.remove("hide"), s.logoAndLinesNode.classList.remove("onWorks"), s.creatorNode.classList.remove("onWorks")), e ? setTimeout(function() {
+                }, 1020) : (s.logoAndLinesNode.classList.add("hide"),s.servicesNode.classList.add("showContent"), s.aboutSolutionNode.classList.remove("showContent")), e ? setTimeout(function() {
 
-                    s.solutionsOverviewNode.classList.add("showDesctiption")
+                    s.logoAndLinesNode.classList.add("hide"),s.logoAndLinesNode.classList.add("onServices"), s.scrollDownNode.classList.add("hide"), i.default.onServices()
 
-                }, 1010) : s.solutionsOverviewNode.classList.add("showDesctiption"), e ? setTimeout(function() {
-
-                    s.solutionsOverviewNode.classList.add("showContent"), s.logoAndLinesNode.classList.add("onSolutionsOverview-logo"), s.logoAndLinesNode.classList.add("hide"), s.creatorNode.classList.add("onSolutionsOverview")
-
-                }, 1020) : (s.solutionsOverviewNode.classList.add("showContent"), s.logoAndLinesNode.classList.add("onSolutionsOverview-logo"), s.logoAndLinesNode.classList.add("hide"), s.creatorNode.classList.add("onSolutionsOverview")), a.default.setMin()
+                }, 510) : (s.logoAndLinesNode.classList.add("hide"),s.logoAndLinesNode.classList.add("onServices"), s.scrollDownNode.classList.add("hide"), i.default.onServices()), s.logoAndLinesNode.classList.remove("onSolutionsOverview"), s.solutionsOverviewNode.classList.remove("onServices"), s.logoAndLinesNode.classList.remove("onSolutionsOverview"), s.creatorNode.classList.remove("onSolutionsOverview"), s.logoAndLinesNode.classList.remove("onSolutionsOverview-logo"), s.solutionsOverviewNode.classList.remove("showContent"), s.logoAndLinesNode.classList.remove("hide"), s.solutionsOverviewNode.classList.remove("showDesctiption")
 
             },
 
             clear: function() {
 
-                s.logoAndLinesNode.classList.remove("onSolutionsOverview"), s.solutionsOverviewNode.classList.remove("showDesctiption"), s.solutionsOverviewNode.classList.remove("showContent"), s.logoAndLinesNode.classList.remove("onSolutionsOverview-logo"), s.logoAndLinesNode.classList.remove("hide"), s.creatorNode.classList.remove("onSolutionsOverview"), a.default.setMin()
+                s.logoAndLinesNode.classList.remove("hide"), s.servicesNode.classList.remove("showContent"), s.logoAndLinesNode.classList.remove("onServices"), s.scrollDownNode.classList.remove("hide")
 
             },
 
             setIndicatorState: function() {
 
-                i.default.highlight(3)
+                a.default.highlight(3)
 
             }
 
         };
 
-    t.default = d   
+    t.default = l
+
+},function(e, t, o) {
+// function number 40 
+    "use strict";
+
+
+
+    function n(e) {
+
+        return e && e.__esModule ? e : {
+
+            default: e
+
+        }
+
+    }
+
+    Object.defineProperty(t, "__esModule", {
+
+        value: !0
+
+    });
+
+    var s = function(e) {
+
+            if (e && e.__esModule) return e;
+
+            var t = {};
+
+            if (null != e)
+
+                for (var o in e) Object.prototype.hasOwnProperty.call(e, o) && (t[o] = e[o]);
+
+            return t.default = e, t
+
+        }(o(7)),
+
+        i = (n(o(3)), n(o(1)), n(o(4))),
+
+        a = n(o(2)),
+
+        l = {
+
+            up: function() {
+                console.log("up 5");
+                var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
+
+                s.logoAndLinesNode.classList.add("hide"), l.setIndicatorState(), e ? setTimeout(function() {
+
+                    s.servicesNode.classList.add("showContent"), s.aboutSolutionNode.classList.remove("showContent")
+
+                }, 1020) : (s.logoAndLinesNode.classList.add("hide"),s.servicesNode.classList.add("showContent"), s.aboutSolutionNode.classList.remove("showContent")), e ? setTimeout(function() {
+
+                    s.logoAndLinesNode.classList.add("hide"), s.scrollDownNode.classList.add("hide"), s.logoAndLinesNode.classList.remove("onSolutionsOverview"), s.solutionsOverviewNode.classList.remove("onServices"), s.logoAndLinesNode.classList.remove("onSolutionsOverview"), s.creatorNode.classList.remove("onSolutionsOverview"), s.logoAndLinesNode.classList.remove("onSolutionsOverview-logo"), s.solutionsOverviewNode.classList.remove("showContent"),s.solutionsOverviewNode.classList.remove("showDesctiption"), s.solutionsOverviewNode.classList.remove("showContent")
+
+                }, 510) : (s.logoAndLinesNode.classList.add("hide"), s.scrollDownNode.classList.add("hide"), s.logoAndLinesNode.classList.remove("onSolutionsOverview"), s.solutionsOverviewNode.classList.remove("onServices"), s.logoAndLinesNode.classList.remove("onSolutionsOverview"), s.creatorNode.classList.remove("onSolutionsOverview"), s.logoAndLinesNode.classList.remove("onSolutionsOverview-logo"), s.solutionsOverviewNode.classList.remove("showContent"), s.solutionsOverviewNode.classList.remove("showDesctiption"), s.solutionsOverviewNode.classList.remove("showContent"))
+
+            },
+
+            down: function() {
+                 console.log("down 5");
+                var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0];
+
+                s.logoAndLinesNode.classList.add("hide"),s.aboutSolutionNode.classList.remove("showContent"), l.setIndicatorState(), e ? setTimeout(function() {
+
+                    s.logoAndLinesNode.classList.add("hide"),s.servicesNode.classList.add("showContent"), s.aboutSolutionNode.classList.remove("showContent")
+
+                }, 1020) : (s.logoAndLinesNode.classList.add("hide"),s.servicesNode.classList.add("showContent"), s.aboutSolutionNode.classList.remove("showContent")), e ? setTimeout(function() {
+
+                    s.logoAndLinesNode.classList.add("hide"),s.logoAndLinesNode.classList.add("onServices"), s.scrollDownNode.classList.add("hide"), i.default.onServices()
+
+                }, 510) : (s.logoAndLinesNode.classList.add("hide"),s.logoAndLinesNode.classList.add("onServices"), s.scrollDownNode.classList.add("hide"), i.default.onServices()), s.logoAndLinesNode.classList.remove("onSolutionsOverview"), s.solutionsOverviewNode.classList.remove("onServices"), s.logoAndLinesNode.classList.remove("onSolutionsOverview"), s.creatorNode.classList.remove("onSolutionsOverview"), s.logoAndLinesNode.classList.remove("onSolutionsOverview-logo"), s.solutionsOverviewNode.classList.remove("showContent"), s.logoAndLinesNode.classList.remove("hide"), s.solutionsOverviewNode.classList.remove("showDesctiption")
+
+            },
+
+            clear: function() {
+
+                s.logoAndLinesNode.classList.remove("hide"), s.servicesNode.classList.remove("showContent"), s.logoAndLinesNode.classList.remove("onServices"), s.scrollDownNode.classList.remove("hide")
+
+            },
+
+            setIndicatorState: function() {
+
+                a.default.highlight(4)
+
+            }
+
+        };
+
+    t.default = l
+
 }]);
